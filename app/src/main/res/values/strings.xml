@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Gymaholic</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Technocratsolutions</string>
+    <string name="nav_header_subtitle">Technocrats.hicet@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="diet">\nHere is a basic overview of the nutrients your body needs and what they do:\n
+1) Proteins- The chemical building blocks from which our cells, organs, and
+tissues are made.\n
+2) Carbohydrates- Your basic energy source that is composed of simple and
+complex carbohydrates.\n
+3) Fats- These cells are your energy storage units.\n
+4) Water- Essential for a number of vital bodily functions and accounts for
+approximately 72% of your muscle tissue while transporting all of your
+nutrients, increasing your blood volume, and eliminating waste.\n
+5) Vitamins- These complex chemicals are required for bodily operations, are
+produced naturally by the body, and are referred to as “organic compounds.\n
+6) Minerals- Not produced in nature and of referred to as inorganic.\n
+        ---------------------------------------------------------------------------------------------\n
+        Here is a more detailed description of the nutrients...\n
+Proteins :\n
+Q: Why Does The Body Need Protein?\n
+A: Protein is a nutrient made up of amino acids. There are two types of amino acids.
+Non-essential Amino Acids that can usually be synthesized by a healthy body from the
+daily foods that we eat. Then there are Essential Amino Acids that must be obtained
+through the daily diet.\n
+Protein has a number of important roles in the body, including:\n
+1.Repairing of body cells\n
+2.Building and repairing muscles and bones\n
+3.Providing a source of energy\n
+4.Regulating many important metabolic processes in the body\n
+        ---------------------------------------------------------------------------------------------\n
+Carbohydrates:\n
+Q: Why does the body need carbohydrates?\n
+A: The main reason your body needs carbohydrates is to provide energy. Carbohydrates
+consist of starches (complex carbs) and sugars (simple carbs) that are broken down into
+glucose, which then turns into energy.\n
+        ---------------------------------------------------------------------------------------------\n
+Fats:\n
+Q: I am trying to lose fat; do I need to incorporate fats into my diet?\n
+A: Yes, fats are an important part of your body. They provide insulation and reserved
+energy when you need it. Fat has also been found to raise energy levels and contributes to
+your strength gains. When you short term energy supplies burn up (which can take 20-45
+minutes), your fat cells are then used as the primary energy source.\n
+owever, eating too much dietary fat may lead to the following health problems:\n
+1.Obesity\n
+2.Heart disease\n
+3.Stroke\n
+4.Hypertension\n
+5.So you probably want to know which fats are the good fats and which fats are bad fats.\n
+6.There are really three basic types of fat that include saturated fats, unsaturated fats, and
+polysaturated fats.\n
+        ---------------------------------------------------------------------------------------------\n
+
+Saturated fats:\n
+This kind of fat is like Crisco, its bad for you. It solidifies at room temperature and can
+lead to a number of health problems. Saturated fats really have no role in our body. Foods
+that contain the most saturated fat include:\n
+1) High fat beef\n
+2) Butter\n
+3) Cheese\n
+4) Chocolate\n
+You are better off trying to avoid these foods.\n
+        ---------------------------------------------------------------------------------------------\n
+Unsaturated fats:\n
+These fats are better for you than saturated fats and are usually still liquid at room
+temperature. Your body cannot manufacture these fats on its own but they still need to be
+incorporated into your diet. They are found in olive oil, fish oil, and cold-water fish. Two
+important unsaturated fats are polyunsaturated fats and Monosaturated fats.\n
+        ---------------------------------------------------------------------------------------------\n
+Water:\n
+Q: How much water should I be drinking everyday?\n
+A: At least 2 glasses with each meal\n
+If you want to look your best, water needs to be an essential part of your diet. It is
+responsible for the transportation of vital nutrients and cleaning toxins from your blood.
+Your body is made up of 40%-60% water. From constant perspiration and daily activity it is very easy to become dehydrated. Many of us never even know that we are close to
+dehydration. When your throat becomes dry, your body is already dehydrated.\n
+        ---------------------------------------------------------------------------------------------\n
+Nutrition Overview:\n
+1. Fat loss and weight loss are dramatically accelerated when you “clean up” your
+diet.\n
+2.Proteins are the essential building blocks of muscle. Everyone needs protein in his
+or her diet so that muscle is built and not lost.\n
+3.Carbohydrates provide energy.\n
+4.Saturated fats are unhealthy, whereas unsaturated, polysaturated, and
+monosaturated fats are needed to burn off these saturated.\n
+5.Drink water to help your body easily transport vital nutrients and to prevent the
+possible effects of overtraining.\n
+6.Vitamins and minerals help repair bodily tissue and promote the overall wellness
+of the body.\n
+        \nxxxxx-source bodybuilding.com-xxxxx
+
+    </string>
+</resources>
