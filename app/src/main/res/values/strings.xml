@@ -96,4 +96,6 @@ of the body.\n
         \nxxxxx-source bodybuilding.com-xxxxx
 
     </string>
+    <string name="title_activity_fragment">fragment</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
