@@ -15,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 private Intent home,dash,note;
 private Intent diet;
+private WebView mWebview;
     private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -31,14 +33,15 @@ private Intent diet;
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-
+                 home=new Intent(getBaseContext(),MainActivity.class);
+                 startActivity(home);
                     return true;
                 case R.id.navigation_dashboard:
-                    home=new Intent(getBaseContext(),home.class);
-                    startActivity(home);
+                    //home=new Intent(getBaseContext(),home.class);
+                    //startActivity(home);
                     return true;
                 case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
+                   // mTextMessage.setText(R.string.title_notifications);
                     return true;
             }
             return false;
@@ -62,8 +65,65 @@ private Intent diet;
             public void onClick(View v) {
                 Intent warm = new Intent(getApplicationContext(),home.class);
                 startActivity(warm);
+
+
+
+
+
             }
         });
+
+
+        ImageButton chest =(ImageButton)findViewById(R.id.chest);
+        chest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chest = new Intent(getApplicationContext(),chest.class);
+                startActivity(chest);
+            }
+        });
+
+       ImageButton imgsh =(ImageButton)findViewById(R.id.imgsh);
+       imgsh.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent sh = new Intent(getApplicationContext(),shoulder.class);
+               startActivity(sh);
+           }
+       });
+       ImageButton bicepb =(ImageButton)findViewById(R.id.bicepb);
+       bicepb.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent bicep = new Intent(getApplicationContext(),bicep.class);
+               startActivity(bicep);
+           }
+       });
+       ImageButton backb =(ImageButton)findViewById(R.id.backb);
+       backb.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent bck = new Intent(getApplicationContext(),back.class);
+               startActivity(bck);
+           }
+       });
+       ImageButton tricepb =(ImageButton)findViewById(R.id.tricepb);
+       tricepb.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent tri = new Intent(getApplicationContext(),tricep.class);
+               startActivity(tri);
+           }
+       });
+
+       ImageButton quadb =(ImageButton)findViewById(R.id.quadb);
+       quadb.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent quad = new Intent(getApplicationContext(),quad.class);
+               startActivity(quad);
+           }
+       });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -101,6 +161,11 @@ private Intent diet;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            mWebview = new WebView(this);
+            mWebview.loadUrl("https://bit.ly/2OsxpEN");
+            setContentView(mWebview);
+            super.onBackPressed();
+            finish();
             return true;
         }
 

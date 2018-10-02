@@ -32,6 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nav_header_subtitle"
-        android:textIsSelectable="true"/>
+        android:textIsSelectable="true"
+        android:drawableEnd="@drawable/ic_content_copy_black_24dp" />
 
 </LinearLayout>

@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
-    tools:showIn="@layout/app_bar_main">
+    tools:showIn="@layout/app_bar_main"
+    android:screenOrientation="portrait">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -44,7 +45,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="centerCrop"
-                        app:srcCompat="@drawable/warmbanner" />
+                        app:srcCompat="@drawable/warmbanner"
+                        tools:ignore="ContentDescription"/>
 
                 </android.support.v7.widget.CardView>
 
@@ -59,11 +61,12 @@
                     android:layout_marginRight="8dp">
 
                     <ImageButton
-                        android:id="@+id/imageButton3"
+                        android:id="@+id/chest"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitCenter"
-                        app:srcCompat="@drawable/chestday" />
+                        app:srcCompat="@drawable/chestday"
+                        tools:ignore="ContentDescription" />
 
                 </android.support.v7.widget.CardView>
 
@@ -78,11 +81,12 @@
                     android:layout_marginRight="8dp">
 
                     <ImageButton
-                        android:id="@+id/imageButton2"
+                        android:id="@+id/imgsh"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/sh" />
+                        app:srcCompat="@drawable/sh"
+                        tools:ignore="ContentDescription" />
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
@@ -96,11 +100,12 @@
                     android:layout_marginRight="8dp">
 
                     <ImageButton
-                        android:id="@+id/imageButton4"
+                        android:id="@+id/bicepb"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/bb" />
+                        app:srcCompat="@drawable/bb"
+                        tools:ignore="ContentDescription" />
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
@@ -114,11 +119,12 @@
                     android:layout_marginRight="8dp">
 
                     <ImageButton
-                        android:id="@+id/imageButton5"
+                        android:id="@+id/backb"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/bck" />
+                        app:srcCompat="@drawable/bck"
+                        tools:ignore="ContentDescription" />
 
                 </android.support.v7.widget.CardView>
                 <android.support.v7.widget.CardView
@@ -132,11 +138,12 @@
                     android:layout_marginRight="8dp">
 
                     <ImageButton
-                        android:id="@+id/imageButton6"
+                        android:id="@+id/tricepb"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/tri" />
+                        app:srcCompat="@drawable/tri"
+                        tools:ignore="ContentDescription" />
 
                 </android.support.v7.widget.CardView>
 
@@ -151,11 +158,12 @@
                     android:layout_marginRight="8dp">
 
                     <ImageButton
-                        android:id="@+id/imageButton7"
+                        android:id="@+id/quadb"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/quad" />
+                        app:srcCompat="@drawable/quad"
+                        tools:ignore="ContentDescription" />
 
                 </android.support.v7.widget.CardView>
 
