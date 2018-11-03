@@ -1,6 +1,7 @@
 package technocrats.com.gymaholic;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -25,6 +26,8 @@ private Intent home,dash,note;
 private Intent diet;
 private WebView mWebview;
     private TextView mTextMessage;
+
+    private WebView webview;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -198,6 +201,11 @@ private WebView mWebview;
 
         } else if (id == R.id.nav_send) {
 
+
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse(
+                            "https://api.whatsapp.com/send?phone=+919597254952&text=Hey%20there%20%20i'm%20dextor%20feel%20free%20to%20contact%20me%20@TeamTcS%20"
+                    )));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

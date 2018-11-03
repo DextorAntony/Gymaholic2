@@ -30,8 +30,8 @@
                 android:title="Share" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:icon="@drawable/wapp"
+                android:title="Whatsapp Me" />
         </menu>
     </item>
 
