@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "823749732977",
+    "firebase_url": "https://gymaholic2-22a93.firebaseio.com",
+    "project_id": "gymaholic2-22a93",
+    "storage_bucket": "gymaholic2-22a93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823749732977:android:67aab0ab624fce2a",
+        "android_client_info": {
+          "package_name": "technocrats.com.gymaholic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823749732977-bnthuc4vbpq90ttl4i1ecfijjar5j3qt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "technocrats.com.gymaholic",
+            "certificate_hash": "ac90c8193845a9cb0a6d85eaa9895091a4212849"
+          }
+        },
+        {
+          "client_id": "823749732977-1ggfsi21m3ttiv4vr8avk6k35tgs9e0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaqKNm6uKw78xc-K7_sdcXTcO4T8hpytw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823749732977-1ggfsi21m3ttiv4vr8avk6k35tgs9e0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

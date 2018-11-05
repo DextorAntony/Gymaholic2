@@ -38,7 +38,10 @@
         <activity android:name=".bicep" />
         <activity android:name=".back" />
         <activity android:name=".tricep" />
-        <activity android:name=".quad"></activity>
+        <activity android:name=".quad"/>
+        <activity android:name=".abs"/>
+            <activity android:name=".ppp"></activity>
+
     </application>
 
 </manifest>

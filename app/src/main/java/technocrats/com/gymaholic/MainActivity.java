@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 private Intent home,dash,note;
 private Intent diet;
+private Intent pp;
+private Intent abs;
 private WebView mWebview;
     private TextView mTextMessage;
 
@@ -40,8 +42,8 @@ private WebView mWebview;
                  startActivity(home);
                     return true;
                 case R.id.navigation_dashboard:
-                    //home=new Intent(getBaseContext(),home.class);
-                    //startActivity(home);
+                   abs=new Intent(getBaseContext(),abs.class);
+                   startActivity(abs);
                     return true;
                 case R.id.navigation_notifications:
                    // mTextMessage.setText(R.string.title_notifications);
@@ -164,11 +166,8 @@ private WebView mWebview;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            mWebview = new WebView(this);
-            mWebview.loadUrl("https://bit.ly/2OsxpEN");
-            setContentView(mWebview);
-            super.onBackPressed();
-            finish();
+            pp=new Intent(getBaseContext(),ppp.class);
+            startActivity(pp);
             return true;
         }
 
