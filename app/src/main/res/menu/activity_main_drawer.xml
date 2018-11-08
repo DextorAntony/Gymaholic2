@@ -10,8 +10,8 @@
             android:title="NUTRITION" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:icon="@drawable/ic_videocam_black_24dp"
+            android:title="Videos and Tips." />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"

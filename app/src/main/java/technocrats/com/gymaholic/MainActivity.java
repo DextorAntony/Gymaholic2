@@ -26,6 +26,7 @@ private Intent home,dash,note;
 private Intent diet;
 private Intent pp;
 private Intent abs;
+private Intent video;
 private WebView mWebview;
     private TextView mTextMessage;
 
@@ -185,6 +186,8 @@ private WebView mWebview;
             diet=new Intent(getBaseContext(),diet.class);
             startActivity(diet);
         } else if (id == R.id.nav_gallery) {
+            video = new Intent(getBaseContext(),abs.class);
+            startActivity(video);
 
         } else if (id == R.id.nav_slideshow) {
 

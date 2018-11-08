@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="technocrats.com.gymaholic">
-
+    android:installLocation="preferExternal">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -38,10 +41,21 @@
         <activity android:name=".bicep" />
         <activity android:name=".back" />
         <activity android:name=".tricep" />
-        <activity android:name=".quad"/>
-        <activity android:name=".abs"/>
-            <activity android:name=".ppp"></activity>
+        <activity android:name=".quad" />
+        <activity android:name=".abs"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ppp" />
+        <activity android:name=".page1"
+            android:screenOrientation="portrait"/>
 
+        <activity android:name=".page2"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".page3"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".page4"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".page5"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
