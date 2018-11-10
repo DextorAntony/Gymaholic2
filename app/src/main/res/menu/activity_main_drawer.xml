@@ -14,8 +14,8 @@
             android:title="Videos and Tips." />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:icon="@drawable/ic_access_alarm_black_24dp"
+            android:title="ALARM" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"

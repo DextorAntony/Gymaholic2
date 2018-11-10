@@ -27,6 +27,7 @@ private Intent diet;
 private Intent pp;
 private Intent abs;
 private Intent video;
+private Intent alarm;
 private WebView mWebview;
     private TextView mTextMessage;
 
@@ -190,6 +191,8 @@ private WebView mWebview;
             startActivity(video);
 
         } else if (id == R.id.nav_slideshow) {
+
+
 
         } else if (id == R.id.nav_manage) {
 

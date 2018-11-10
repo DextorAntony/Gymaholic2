@@ -42,20 +42,27 @@
         <activity android:name=".back" />
         <activity android:name=".tricep" />
         <activity android:name=".quad" />
-        <activity android:name=".abs"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".abs"
+            android:screenOrientation="portrait" />
         <activity android:name=".ppp" />
-        <activity android:name=".page1"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".page1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page5"
+            android:screenOrientation="portrait" />
 
-        <activity android:name=".page2"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".page3"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".page4"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".page5"
-            android:screenOrientation="portrait"></activity>
+
     </application>
 
 </manifest>
