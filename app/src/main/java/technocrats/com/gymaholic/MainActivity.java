@@ -27,7 +27,7 @@ private Intent diet;
 private Intent pp;
 private Intent abs;
 private Intent video;
-private Intent alarm;
+private Intent loc;
 private WebView mWebview;
     private TextView mTextMessage;
 
@@ -48,7 +48,10 @@ private WebView mWebview;
                    startActivity(abs);
                     return true;
                 case R.id.navigation_notifications:
-                   // mTextMessage.setText(R.string.title_notifications);
+
+                    loc=new Intent(getBaseContext(),loc.class);
+                    startActivity(loc);
+
                     return true;
             }
             return false;

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".loc">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView18"
+            android:layout_width="0dp"
+            android:layout_height="235dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView86"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/tamilfit" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView19"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView18">
+
+            <ImageView
+                android:id="@+id/page1loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page1" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView20"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView19"
+            app:layout_constraintTop_toBottomOf="@+id/cardView18">
+
+            <ImageView
+                android:id="@+id/page2loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page2loc" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView21"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView19">
+
+            <ImageView
+                android:id="@+id/page3loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page3loc" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView22"
+            android:layout_width="0dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView21"
+            app:layout_constraintTop_toBottomOf="@+id/cardView20">
+
+            <ImageView
+                android:id="@+id/page4loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page4loc" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView23"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView21">
+
+            <ImageView
+                android:id="@+id/page5loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page5loc" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView24"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView23"
+            app:layout_constraintTop_toBottomOf="@+id/cardView22">
+
+            <ImageView
+                android:id="@+id/page6loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page6" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView26"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView25"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView23">
+
+            <ImageView
+                android:id="@+id/page7loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page7" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView25"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView26"
+            app:layout_constraintTop_toBottomOf="@+id/cardView24">
+
+            <ImageView
+                android:id="@+id/page8loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page8" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView27"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView26">
+
+            <ImageView
+                android:id="@+id/page9loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page9" />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView28"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            app:cardCornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView27"
+            app:layout_constraintTop_toBottomOf="@+id/cardView25">
+
+            <ImageView
+                android:id="@+id/page10loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/page10" />
+        </android.support.v7.widget.CardView>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

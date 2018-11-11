@@ -61,8 +61,13 @@
         <activity
             android:name=".page5"
             android:screenOrientation="portrait" />
-
-
+        <activity android:name=".loc" />
+        <activity android:name=".page6" />
+        <activity android:name=".page7" />
+        <activity android:name=".page8" />
+        <activity android:name=".page9" />
+        <activity android:name=".page10" />
+        <activity android:name=".page11"></activity>
     </application>
 
 </manifest>

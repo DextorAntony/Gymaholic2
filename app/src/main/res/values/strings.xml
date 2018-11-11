@@ -7,8 +7,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Privacy Policy</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">ABS</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">YTube</string>
+    <string name="title_notifications">List of Contents</string>
     <string name="diet">\nHere is a basic overview of the nutrients your body needs and what they do:\n
 1) Proteins- The chemical building blocks from which our cells, organs, and
 tissues are made.\n
@@ -146,4 +146,9 @@ of the body.\n
     \n4.Added nutrition</string>
     <string name="page4">Points Covered:\n In this video we look at how to train efficiently for muscle growth.\n Protein Synthesis Resource link: \nhttps://www.ncbi.nlm.nih.gov/books/NBK21603/</string>
     <string name="page5">Facebook :\n https://www.facebook.com/tamilfitnesss\n \nPoints Covered In this video i will discuss, how to control your calories in a simple way,</string>
+    <string name="page6">\nFacebook : https://www.facebook.com/tamilfitnesss\n \nPoints Covered: \nWhen is the best time to go the gym morning or evening</string>
+    <string name="page7">\nFacebook : https://www.facebook.com/tamilfitnesss \nPoints Covered: \nMain Side affect of protein powder</string>
+    <string name="page8">\nFacebook : https://www.facebook.com/tamilfitnesss \nPoints Covered: \nWe discuss the difference between whey protein mass gainer.</string>
+    <string name="page9">\nHow Much rest time do you need between sets? </string>
+    <string name="thankyou">Hey Guys Thank you For Downloading Beta Version of this app,More contents with Improved UI/Ux designs will be expected as an update at the end of November 2018</string>
 </resources>
