@@ -28,6 +28,7 @@ private Intent pp;
 private Intent abs;
 private Intent video;
 private Intent loc;
+private Intent alarm;
 private WebView mWebview;
     private TextView mTextMessage;
 
@@ -195,7 +196,8 @@ private WebView mWebview;
 
         } else if (id == R.id.nav_slideshow) {
 
-
+alarm=new Intent(getBaseContext(),MainActivity2.class);
+startActivity(alarm);
 
         } else if (id == R.id.nav_manage) {
 
