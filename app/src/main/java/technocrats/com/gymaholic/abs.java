@@ -18,7 +18,6 @@ public class abs extends YouTubeBaseActivity
 
     public static final String DEVELOPER_KEY = "AIzaSyDjZ4QFtedqvwCkj7IefnrJVucESWAQMvY";
     private static final String VIDEO_ID = "ROeGxulVFYw";
-    private TextView textview2;
     private static final int RECOVERY_DIALOG_REQUEST = 1;
     YouTubePlayerFragment myYouTubePlayerFragment;
 
@@ -26,7 +25,7 @@ public class abs extends YouTubeBaseActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.abs);
-       textview2 =(TextView)findViewById(R.id.textView2);
+        TextView textview2 = findViewById(R.id.textView2);
        textview2.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {

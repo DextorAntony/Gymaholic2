@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backg"
-    tools:context=".page10">
+    tools:context=".page12">
 
     <fragment
-        android:id="@+id/youtubeplayerfragment10"
+        android:id="@+id/youtubeplayerfragment11"
         android:name="com.google.android.youtube.player.YouTubePlayerFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -17,46 +17,46 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.CardView
-        android:id="@+id/cardView21"
+        android:id="@+id/cardView23"
         android:layout_width="0dp"
         android:layout_height="77dp"
         android:layout_marginTop="8dp"
         app:cardBackgroundColor="@android:color/darker_gray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/youtubeplayerfragment10">
+        app:layout_constraintTop_toBottomOf="@+id/youtubeplayerfragment11">
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textView11a"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="No Change after Taking Protein Powder? "
+            android:text="5 Exercises For Size and Strenght"
             android:textColor="@android:color/background_dark"
             android:textSize="24sp" />
     </android.support.v7.widget.CardView>
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textView13a"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/page10"
+        android:text="@string/page12"
         android:textColor="@android:color/background_light"
         android:textIsSelectable="true"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/cardView22"
+        app:layout_constraintBottom_toTopOf="@+id/cardView22a"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView21" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView23" />
 
     <android.support.v7.widget.CardView
-        android:id="@+id/cardView22"
-        android:layout_width="227dp"
-        android:layout_height="53dp"
+        android:id="@+id/cardView22a"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
@@ -67,10 +67,10 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13">
+        app:layout_constraintTop_toBottomOf="@+id/textView13a">
 
         <TextView
-            android:id="@+id/textView19"
+            android:id="@+id/textView19a"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"

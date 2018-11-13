@@ -5,8 +5,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,15 +20,9 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-private Intent home,dash,note;
-private Intent diet;
-private Intent pp;
-private Intent abs;
-private Intent video;
-private Intent loc;
-private Intent alarm;
-private WebView mWebview;
-    private TextView mTextMessage;
+    private Intent dash;
+    private Intent note;
+    private WebView mWebview;
 
     private WebView webview;
 
@@ -41,16 +33,16 @@ private WebView mWebview;
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
-                 home=new Intent(getBaseContext(),MainActivity.class);
+                    Intent home = new Intent(getBaseContext(), MainActivity.class);
                  startActivity(home);
                     return true;
                 case R.id.navigation_dashboard:
-                   abs=new Intent(getBaseContext(),abs.class);
+                    Intent abs = new Intent(getBaseContext(), technocrats.com.gymaholic.abs.class);
                    startActivity(abs);
                     return true;
                 case R.id.navigation_notifications:
 
-                    loc=new Intent(getBaseContext(),loc.class);
+                    Intent loc = new Intent(getBaseContext(), technocrats.com.gymaholic.loc.class);
                     startActivity(loc);
 
                     return true;
@@ -63,14 +55,14 @@ private WebView mWebview;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
+        TextView mTextMessage = findViewById(R.id.message);
+        BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
-        ImageButton imageButton = (ImageButton)findViewById(R.id.imageButton);
+        ImageButton imageButton = findViewById(R.id.imageButton);
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,7 +77,7 @@ private WebView mWebview;
         });
 
 
-        ImageButton chest =(ImageButton)findViewById(R.id.chest);
+        ImageButton chest = findViewById(R.id.chest);
         chest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -94,7 +86,7 @@ private WebView mWebview;
             }
         });
 
-       ImageButton imgsh =(ImageButton)findViewById(R.id.imgsh);
+       ImageButton imgsh = findViewById(R.id.imgsh);
        imgsh.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -102,7 +94,7 @@ private WebView mWebview;
                startActivity(sh);
            }
        });
-       ImageButton bicepb =(ImageButton)findViewById(R.id.bicepb);
+       ImageButton bicepb = findViewById(R.id.bicepb);
        bicepb.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -110,7 +102,7 @@ private WebView mWebview;
                startActivity(bicep);
            }
        });
-       ImageButton backb =(ImageButton)findViewById(R.id.backb);
+       ImageButton backb = findViewById(R.id.backb);
        backb.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -118,7 +110,7 @@ private WebView mWebview;
                startActivity(bck);
            }
        });
-       ImageButton tricepb =(ImageButton)findViewById(R.id.tricepb);
+       ImageButton tricepb = findViewById(R.id.tricepb);
        tricepb.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -127,7 +119,7 @@ private WebView mWebview;
            }
        });
 
-       ImageButton quadb =(ImageButton)findViewById(R.id.quadb);
+       ImageButton quadb = findViewById(R.id.quadb);
        quadb.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -136,19 +128,19 @@ private WebView mWebview;
            }
        });
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
     }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
         } else {
@@ -172,7 +164,7 @@ private WebView mWebview;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            pp=new Intent(getBaseContext(),ppp.class);
+            Intent pp = new Intent(getBaseContext(), ppp.class);
             startActivity(pp);
             return true;
         }
@@ -188,18 +180,20 @@ private WebView mWebview;
 
         if (id == R.id.nav_diet) {
             // Handle the camera action
-            diet=new Intent(getBaseContext(),diet.class);
+            Intent diet = new Intent(getBaseContext(), technocrats.com.gymaholic.diet.class);
             startActivity(diet);
         } else if (id == R.id.nav_gallery) {
-            video = new Intent(getBaseContext(),abs.class);
+            Intent video = new Intent(getBaseContext(), abs.class);
             startActivity(video);
 
         } else if (id == R.id.nav_slideshow) {
 
-alarm=new Intent(getBaseContext(),MainActivity2.class);
+            Intent alarm = new Intent(getBaseContext(), MainActivity2.class);
 startActivity(alarm);
 
         } else if (id == R.id.nav_manage) {
+            Intent quote = new Intent(getBaseContext(),quote.class);
+            startActivity(quote);
 
         } else if (id == R.id.nav_share) {
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
@@ -209,7 +203,22 @@ startActivity(alarm);
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
 
-        } else if (id == R.id.nav_send) {
+        }
+
+        else if (id == R.id.fb){
+           startActivity(new Intent(Intent.ACTION_VIEW,
+                   Uri.parse(
+                           "https://www.facebook.com/tamilfitnesss/"
+                   )));
+        }
+else if (id==R.id.insta){
+            startActivity(new Intent(Intent.ACTION_VIEW,
+                    Uri.parse(
+                            "https://www.instagram.com/Tamil_Fitness/"
+                    )));
+        }
+
+        else if (id == R.id.nav_send) {
 
 
             startActivity(new Intent(Intent.ACTION_VIEW,
@@ -218,7 +227,7 @@ startActivity(alarm);
                     )));
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }

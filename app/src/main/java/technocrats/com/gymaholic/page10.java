@@ -16,18 +16,17 @@ public class page10 extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener{
     public static final String DEVELOPER_KEY = "AIzaSyC-3O5zbo3wLEixNT2-WPxGV8o_MajH8fU";
     private static final String VIDEO_ID = "bk4Zbys8Ows";
-    private TextView textView19;
     private static final int RECOVERY_DIALOG_REQUEST = 1;
     YouTubePlayerFragment myYouTubePlayerFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page10);
-        textView19=(TextView)findViewById(R.id.textView19);
+        TextView textView19 = findViewById(R.id.textView19);
         textView19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent page10=new Intent(getApplicationContext(),page11.class);
+                Intent page10=new Intent(getApplicationContext(),page12.class);
                 startActivity(page10);
             }
         });

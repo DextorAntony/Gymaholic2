@@ -94,7 +94,7 @@ public class RingtonePlayingService extends Service {
             mMediaPlayer.start();
 
 
-            mNM.notify(0, mNotify);
+            Objects.requireNonNull(mNM).notify(0, mNotify);
 
             this.isRunning = true;
             startId1 = 0;

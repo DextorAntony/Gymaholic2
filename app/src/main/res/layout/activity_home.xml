@@ -25,7 +25,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/warm0" />
+            app:srcCompat="@drawable/warm0"
+            android:contentDescription="@null" />
 
         <ImageView
             android:id="@+id/imageView8"
@@ -39,7 +40,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView7"
-            app:srcCompat="@drawable/warm" />
+            app:srcCompat="@drawable/warm"
+            android:contentDescription="@null" />
 
         <ImageView
             android:id="@+id/imageView9"
@@ -53,6 +55,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView8"
-            app:srcCompat="@drawable/warm2" />
+            app:srcCompat="@drawable/warm2"
+            android:contentDescription="@null" />
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

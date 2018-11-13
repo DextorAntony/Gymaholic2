@@ -9,8 +9,6 @@ import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -43,7 +41,7 @@ public class MainActivity2 extends AppCompatActivity {
         this.context = this;
 
         //alarm = new AlarmReceiver();
-        alarmTextView = (TextView) findViewById(R.id.alarmText);
+        alarmTextView = findViewById(R.id.alarmText);
 
         final Intent myIntent = new Intent(this.context, AlarmReceiver.class);
 
@@ -53,11 +51,11 @@ public class MainActivity2 extends AppCompatActivity {
         // set the alarm to the time that you picked
         final Calendar calendar = Calendar.getInstance();
 
-        alarmTimePicker = (TimePicker) findViewById(R.id.alarmTimePicker);
+        alarmTimePicker = findViewById(R.id.alarmTimePicker);
 
 
 
-        Button start_alarm= (Button) findViewById(R.id.start_alarm);
+        Button start_alarm= findViewById(R.id.start_alarm);
         start_alarm.setOnClickListener(new View.OnClickListener() {
             @TargetApi(Build.VERSION_CODES.M)
 
@@ -68,7 +66,7 @@ public class MainActivity2 extends AppCompatActivity {
                 //setAlarmText("You clicked a button");
 
                 final int hour = alarmTimePicker.getCurrentHour();
-                final int minute = alarmTimePicker.getCurrentMinute();;
+                final int minute = alarmTimePicker.getCurrentMinute();
 
                 Log.e("MyActivity", "In the receiver with " + hour + " and " + minute);
                 setAlarmText("You clicked a " + hour + " and " + minute);
@@ -96,7 +94,7 @@ public class MainActivity2 extends AppCompatActivity {
         AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
         assert alarmManager != null;
         alarmManager.cancel(pendingIntent);
-        Button stop_alarm= (Button) findViewById(R.id.stop_alarm);
+        Button stop_alarm= findViewById(R.id.stop_alarm);
         stop_alarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

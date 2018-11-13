@@ -12,27 +12,27 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
 
-public class page7 extends YouTubeBaseActivity
+public class page12 extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener{
     public static final String DEVELOPER_KEY = "AIzaSyC-3O5zbo3wLEixNT2-WPxGV8o_MajH8fU";
-    private static final String VIDEO_ID = "wn6FJo2EEXk";
+    private static final String VIDEO_ID = "sX5nVUcYNDo";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
     YouTubePlayerFragment myYouTubePlayerFragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page7);
-        TextView textView16 = findViewById(R.id.textView16);
-        textView16.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_page12);
+        TextView textView19a = findViewById(R.id.textView19a);
+        textView19a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent page7=new Intent(getApplicationContext(),page8.class);
-                startActivity(page7);
+                Intent page12=new Intent(getApplicationContext(),page13.class);
+                startActivity(page12);
             }
         });
 
         myYouTubePlayerFragment = (YouTubePlayerFragment)getFragmentManager()
-                .findFragmentById(R.id.youtubeplayerfragment7);
+                .findFragmentById(R.id.youtubeplayerfragment11);
         myYouTubePlayerFragment.initialize(DEVELOPER_KEY, this);
     }
     @Override
@@ -62,7 +62,7 @@ public class page7 extends YouTubeBaseActivity
         }
     }
     protected YouTubePlayer.Provider getYouTubePlayerProvider() {
-        return (YouTubePlayerView)findViewById(R.id.youtubeplayerfragment7);
+        return (YouTubePlayerView)findViewById(R.id.youtubeplayerfragment11);
     }
 }
 

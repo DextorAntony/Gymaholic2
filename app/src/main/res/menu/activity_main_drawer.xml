@@ -11,7 +11,7 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_videocam_black_24dp"
-            android:title="Videos and Tips." />
+            android:title="Videos and Tips" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_access_alarm_black_24dp"
@@ -31,8 +31,18 @@
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/wapp"
-                android:title="Whatsapp Me" />
+                android:title="Developer Connect" />
         </menu>
     </item>
+    <group android:id="@+id/space">
+        <item
+            android:id="@+id/fb"
+            android:icon="@drawable/fb"
+            android:title="@string/tf" />
+        <item
+            android:id="@+id/insta"
+            android:icon="@drawable/ins"
+            android:title="@string/tf" />
+    </group>
 
 </menu>

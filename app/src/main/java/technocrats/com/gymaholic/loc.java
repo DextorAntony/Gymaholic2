@@ -9,14 +9,12 @@ import android.widget.ImageView;
 public class loc extends AppCompatActivity {
 
 
-    private ImageView page1loc,page2loc,page3loc,page4loc,page5loc,page6loc,page7loc,page8loc,page9loc,page10loc;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_loc);
 
-        page1loc=(ImageView)findViewById(R.id.page1loc);
+        ImageView page1loc = findViewById(R.id.page1loc);
         page1loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,7 +23,7 @@ public class loc extends AppCompatActivity {
             }
         });
 
-page2loc=(ImageView)findViewById(R.id.page2loc);
+        ImageView page2loc = findViewById(R.id.page2loc);
 page2loc.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -35,7 +33,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
 });
 
 
-        page3loc=(ImageView)findViewById(R.id.page3loc);
+        ImageView page3loc = findViewById(R.id.page3loc);
         page3loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -44,7 +42,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
             }
         });
 
-        page4loc=(ImageView)findViewById(R.id.page4loc);
+        ImageView page4loc = findViewById(R.id.page4loc);
         page4loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,7 +52,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
         });
 
 
-        page5loc=(ImageView)findViewById(R.id.page5loc);
+        ImageView page5loc = findViewById(R.id.page5loc);
         page5loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -63,7 +61,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
             }
         });
 
-        page6loc=(ImageView)findViewById(R.id.page6loc);
+        ImageView page6loc = findViewById(R.id.page6loc);
         page6loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -73,8 +71,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
         });
 
 
-
-        page7loc=(ImageView)findViewById(R.id.page7loc);
+        ImageView page7loc = findViewById(R.id.page7loc);
         page7loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -83,7 +80,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
             }
         });
 
-        page8loc=(ImageView)findViewById(R.id.page8loc);
+        ImageView page8loc = findViewById(R.id.page8loc);
         page8loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -92,7 +89,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
             }
         });
 
-        page9loc=(ImageView)findViewById(R.id.page9loc);
+        ImageView page9loc = findViewById(R.id.page9loc);
         page9loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,7 +98,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
             }
         });
 
-        page10loc=(ImageView)findViewById(R.id.page10loc);
+        ImageView page10loc = findViewById(R.id.page10loc);
         page10loc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
