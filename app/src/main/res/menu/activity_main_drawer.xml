@@ -18,8 +18,8 @@
             android:title="ALARM" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:icon="@drawable/ic_fitness_center_black_24dp"
+            android:title="Motivational Quotes" />
     </group>
 
     <item android:title="Communicate">

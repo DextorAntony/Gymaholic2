@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity
 startActivity(alarm);
 
         } else if (id == R.id.nav_manage) {
-            Intent quote = new Intent(getBaseContext(),quote.class);
+            Intent quote = new Intent(getBaseContext(),server.class);
             startActivity(quote);
 
         } else if (id == R.id.nav_share) {

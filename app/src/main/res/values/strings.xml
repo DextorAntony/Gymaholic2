@@ -127,6 +127,7 @@ of the body.\n
     \n#The Above Black screens indicates Youtube player.\n
     \n#After navigating to a certain page,wait until the youtube playback is completely loaded.\n
         \n#Click  the FullScreen icon on the player to go fullScreen mode.\n
+        \n#Text is scrollable pull up or down to read and hold to copy.\n
     \n#Click on the YouTube icon to view a specific video and their channel on your external youtube app to subscribe and support them.\n
     \n#Click NEXT to continue.</string>
     <string name="page2">#Anabolic steroids, or anabolic-androgenic steroids (AAS), are the synthetic (made in a lab),When we lift weights heavier than what were used to, we create tiny microtears in muscle fibers. The body.s natural repair process repairs the tear and steroids boosts this process.
@@ -203,4 +204,13 @@ of the body.\n
         \nFinally, I will offer the standard reminder that none of these exercises will work for any goal if you dont manage the other elements of your training program volume, intensity, frequency as well as what you do outside the gym. Without proper food and supplements, good sleep habits, and sensible recovery between workouts, it doesnt matter which exercises you choose.
         That said, if you get everything else right, or mostly right, then matching your exercise selection to your goals could be the final piece of the puzzle.
 </string>
+    <string name="cts">Connect To Server</string>
+    <string name="on">Server Online</string>
+    <string name="page13">Meal Plan for Bulking and Maintaining:
+    \n----4 Meals----
+\n1.Breakfast
+    \n2.Lunch
+    \n3.Snack
+    \n4.Dinner</string>
+    <string name="p13">2000 Calories Food Plan</string>
 </resources>

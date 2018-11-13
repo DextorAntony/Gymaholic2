@@ -4,6 +4,79 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backg1"
     tools:context=".page13">
+
+    <fragment
+        android:id="@+id/youtubeplayerfragment12"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView24"
+        android:layout_width="0dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youtubeplayerfragment12">
+
+        <TextView
+            android:id="@+id/textView12a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/p13"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp" />
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView14a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/page13"
+        android:textColor="@android:color/background_light"
+        android:textIsSelectable="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView23a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView24" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView23a"
+        android:layout_width="286dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardBackgroundColor="@color/design_default_color_primary_dark"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14a">
+
+        <TextView
+            android:id="@+id/textView20a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/NXT"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+    </android.support.v7.widget.CardView>
 
 </android.support.constraint.ConstraintLayout>

@@ -106,7 +106,23 @@ page2loc.setOnClickListener(new View.OnClickListener() {
                 startActivity(page10);
             }
         });
+        ImageView page11 = findViewById(R.id.page11);
+        page11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent page11=new Intent(getApplicationContext(),page13.class);
+                startActivity(page11);
+            }
+        });
 
+        ImageView page12 = findViewById(R.id.page12);
+        page12.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent page12=new Intent(getApplicationContext(),page12.class);
+                startActivity(page12);
+            }
+        });
 
 
 

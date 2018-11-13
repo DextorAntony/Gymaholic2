@@ -82,7 +82,9 @@
 
         <activity android:name=".page12" />
         <activity android:name=".page13" />
-        <activity android:name=".quote"></activity>
+        <activity android:name=".quote" />
+        <activity android:name=".server" >
+        </activity>
     </application>
 
 </manifest>
