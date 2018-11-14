@@ -223,7 +223,7 @@ else if (id==R.id.insta){
 
             startActivity(new Intent(Intent.ACTION_VIEW,
                     Uri.parse(
-                            "https://api.whatsapp.com/send?phone=+919597254952&text=Hey%20there%20%20i'm%20dextor%20feel%20free%20to%20contact%20me%20@TeamTcS%20"
+                            "https://api.whatsapp.com/send?phone=+919943847048&text=Hey%20there%20%20i'm%20Dextor%20I'm%20an%202nd%20year%20CS%20Engineering%20Student%20with%20Passion%20for%20writing%20Mobile%20Apps%20and%20PUBG!!!%20Feel%20free%20to%20contact%20me%20for%20any%20Queries%20"
                     )));
         }
 

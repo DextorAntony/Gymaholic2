@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1"
+    android:background="@mipmap/ad"
     tools:context=".page3">
 
     <fragment
@@ -44,11 +44,11 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:scrollbars="vertical"
         android:text="@string/page3"
         android:textColor="@android:color/background_light"
         android:textIsSelectable="true"
         android:textSize="18sp"
-        android:scrollbars="vertical"
         app:layout_constraintBottom_toTopOf="@+id/cardView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -73,17 +73,29 @@ public class RingtonePlayingService extends Service {
             Log.e("if there was not sound ", " and you want start");
 
             int min = 1;
-            int max = 9;
+            int max = 5;
 
             Random r = new Random();
             int random_number = r.nextInt(max - min + 1) + min;
             Log.e("random number is ", String.valueOf(random_number));
 
             if (random_number == 1) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_3);
             }
             else if (random_number == 2) {
                 mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_2);
+
+            }
+                else if (random_number == 3) {
+                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
+            }
+ else if (random_number == 4) {
+                    mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_4);
+
+                }
+            else if (random_number == 5) {
+                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_5);
+
 
             }
             else {
