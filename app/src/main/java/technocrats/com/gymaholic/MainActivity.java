@@ -198,7 +198,7 @@ startActivity(alarm);
         } else if (id == R.id.nav_share) {
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
-            String shareBody = "content";
+            String shareBody = "Man cannot remake himself without suffering, for he is both the marble and the sculptor. Download Now to Sculpt Yourself: https://play.google.com/store/apps/details?id=technocrats.com.gymaholic\"";
             sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
@@ -223,7 +223,7 @@ else if (id==R.id.insta){
 
             startActivity(new Intent(Intent.ACTION_VIEW,
                     Uri.parse(
-                            "https://api.whatsapp.com/send?phone=+919943847048&text=Hey%20there%20%20i'm%20Dextor%20I'm%20an%202nd%20year%20CS%20Engineering%20Student%20with%20Passion%20for%20writing%20Mobile%20Apps%20and%20PUBG!!!%20Feel%20free%20to%20contact%20me%20for%20any%20Queries%20"
+                            "https://api.whatsapp.com/send?phone=+919943847048&text=Hey%20there%20%20i'm%20Dextor%20I'm%20an%202nd%20year%20CS%20Engineering%20Student%20with%20Passion%20for%20writing%20Mobile%20Apps%20and%20PUBG!!!%20Feel%20free%20to%20contact%20me.%20Be%20nice%20and%20remember%20THE%20CODE%20OF%20CONDUCT.%20"
                     )));
         }
 

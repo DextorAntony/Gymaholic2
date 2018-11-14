@@ -38,16 +38,19 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".chest" />
-        <activity android:name=".shoulder" />
-        <activity android:name=".bicep" />
-        <activity android:name=".back" />
-        <activity android:name=".tricep" />
-        <activity android:name=".quad" />
+        <activity android:name=".chest"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".shoulder"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".bicep" android:screenOrientation="portrait"/>
+        <activity android:name=".back" android:screenOrientation="portrait"/>
+        <activity android:name=".tricep" android:screenOrientation="portrait"/>
+        <activity android:name=".quad" android:screenOrientation="portrait"/>
         <activity
             android:name=".abs"
             android:screenOrientation="portrait" />
-        <activity android:name=".ppp" />
+        <activity android:name=".ppp"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".page1"
             android:screenOrientation="portrait" />
@@ -63,13 +66,13 @@
         <activity
             android:name=".page5"
             android:screenOrientation="portrait" />
-        <activity android:name=".loc" />
-        <activity android:name=".page6" />
-        <activity android:name=".page7" />
-        <activity android:name=".page8" />
-        <activity android:name=".page9" />
-        <activity android:name=".page10" />
-        <activity android:name=".page11" />
+        <activity android:name=".loc" android:screenOrientation="portrait"/>
+        <activity android:name=".page6" android:screenOrientation="portrait"/>
+        <activity android:name=".page7" android:screenOrientation="portrait"/>
+        <activity android:name=".page8" android:screenOrientation="portrait"/>
+        <activity android:name=".page9" android:screenOrientation="portrait"/>
+        <activity android:name=".page10" android:screenOrientation="portrait"/>
+        <activity android:name=".page11" android:screenOrientation="portrait"/>
         <activity
             android:name=".MainActivity2"
             android:screenOrientation="portrait" />
@@ -80,11 +83,22 @@
             android:name=".RingtonePlayingService"
             android:enabled="true" />
 
-        <activity android:name=".page12" />
-        <activity android:name=".page13" />
-        <activity android:name=".quote" />
-        <activity android:name=".server" >
+        <activity android:name=".page12" android:screenOrientation="portrait"/>
+        <activity android:name=".page13" android:screenOrientation="portrait"/>
+        <activity android:name=".quote" android:screenOrientation="portrait"/>
+        <activity android:name=".server" android:screenOrientation="portrait">
         </activity>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
