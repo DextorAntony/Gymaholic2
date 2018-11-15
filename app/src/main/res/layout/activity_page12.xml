@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="5 Exercises For Size and Strenght"
+            android:text="@string/_5_exercises_for_size_and_strenght"
             android:textColor="@android:color/background_dark"
             android:textSize="24sp" />
     </android.support.v7.widget.CardView>

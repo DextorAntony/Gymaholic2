@@ -7,31 +7,31 @@
         <item
             android:id="@+id/nav_diet"
             android:icon="@drawable/ic_accessibility_black_24dp"
-            android:title="NUTRITION" />
+            android:title="@string/nutrition" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_videocam_black_24dp"
-            android:title="Videos and Tips" />
+            android:title="@string/videos_and_tips" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_access_alarm_black_24dp"
-            android:title="ALARM" />
+            android:title="@string/alarm" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_fitness_center_black_24dp"
-            android:title="Motivational Quotes" />
+            android:title="@string/motivational_quotes" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="@string/share" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/wapp"
-                android:title="Developer Connect" />
+                android:title="@string/developer_connect" />
         </menu>
     </item>
     <group android:id="@+id/space">

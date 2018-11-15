@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="NEXT"
+            android:text="@string/next"
             android:textAllCaps="false"
             android:textColor="@android:color/black"
             android:textSize="18sp"

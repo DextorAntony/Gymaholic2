@@ -213,4 +213,26 @@ of the body.\n
     \n3.Snack
     \n4.Dinner</string>
     <string name="p13">2000 Calories Food Plan</string>
+    <string name="next">NEXT</string>
+    <string name="set_alarm">Set alarm</string>
+    <string name="set_the_alarm_clock">Set the alarm clock!</string>
+    <string name="unset_alarm">Unset alarm</string>
+    <string name="videos_and_tips">Videos and Tips</string>
+    <string name="developer_connect">Developer Connect</string>
+    <string name="share">Share</string>
+    <string name="communicate">Communicate</string>
+    <string name="motivational_quotes">Motivational Quotes</string>
+    <string name="alarm">ALARM</string>
+    <string name="nutrition">NUTRITION</string>
+    <string name="full_body_workout_in_tamil">FULL BODY WORKOUT IN TAMIL</string>
+    <string name="no_change_after_taking_protein_powder">No Change after Taking Protein Powder?</string>
+    <string name="_5_exercises_for_size_and_strenght">5 Exercises For Size and Strenght</string>
+    <string name="do_steroids_build_muscle">DO STEROIDS BUILD MUSCLE ?</string>
+    <string name="facts_of_protein_powder">Facts of Protein Powder</string>
+    <string name="how_to_train_optimally">How To Train Optimally</string>
+    <string name="weight_loss_and_diet_in_tamil">Weight loss and diet in Tamil</string>
+    <string name="best_time_to_workout">Best time to Workout</string>
+    <string name="side_effects_of_supplements">Side Effects Of supplements</string>
+    <string name="whey_protein_vs_mass_gainer">Whey Protein Vs Mass Gainer</string>
+    <string name="rest_time_between_sets">Rest Time Between Sets</string>
 </resources>
