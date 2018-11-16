@@ -1,7 +1,5 @@
 package technocrats.com.gymaholic;
 
-import android.content.Context;
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,7 +20,7 @@ public class ViewHolder extends RecyclerView.ViewHolder {
 
     }
 
-    public void  setDetails(Context ctx, String title, String description, String image){
+    public void  setDetails(String title, String image){
         TextView mTitleTv = mView.findViewById(R.id.rTitleTv);
         ImageView mImageTv = mView.findViewById(R.id.rImageView);
 

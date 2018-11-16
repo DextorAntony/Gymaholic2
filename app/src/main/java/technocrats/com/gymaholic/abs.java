@@ -16,8 +16,7 @@ import android.content.Intent;
 public class abs extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener {
 
-    public static final String DEVELOPER_KEY = "AIzaSyDjZ4QFtedqvwCkj7IefnrJVucESWAQMvY";
-    private static final String VIDEO_ID = "ROeGxulVFYw";
+
     private static final int RECOVERY_DIALOG_REQUEST = 1;
     YouTubePlayerFragment myYouTubePlayerFragment;
 

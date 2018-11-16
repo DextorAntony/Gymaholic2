@@ -2,7 +2,8 @@ package technocrats.com.gymaholic;
 
 public class Model {
 
-    String title,image,description;
+    String title,image;
+
     public Model(){}
 
     public String getTitle() {
@@ -21,11 +22,6 @@ public class Model {
         this.image = image;
     }
 
-    public String getDescription() {
-        return description;
-    }
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+
 }

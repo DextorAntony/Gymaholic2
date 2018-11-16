@@ -21,6 +21,7 @@ public class quote extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quote);
         ActionBar actionBar = getSupportActionBar();
+        assert actionBar != null;
         actionBar.setTitle("Post List");
 
         mRecyclerView=findViewById(R.id.recyclerView);
@@ -44,7 +45,7 @@ public class quote extends AppCompatActivity {
                     protected void populateViewHolder(ViewHolder viewHolder, Model model, int position) {
 
 
-                        viewHolder.setDetails(getApplicationContext(),model.getTitle(),model.getDescription(),model.getImage());
+                        viewHolder.setDetails(model.getTitle(), model.getImage());
 
                     }
                 };

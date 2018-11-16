@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Gymaholic</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -22,7 +22,7 @@ nutrients, increasing your blood volume, and eliminating waste.\n
 produced naturally by the body, and are referred to as “organic compounds.\n
 6) Minerals- Not produced in nature and of referred to as inorganic.\n
         ---------------------------------------------------------------------------------------------\n
-        Here is a more detailed description of the nutrients...\n
+        Here is a more detailed description of the nutrients…\n
 Proteins :\n
 Q: Why Does The Body Need Protein?\n
 A: Protein is a nutrient made up of amino acids. There are two types of amino acids.
@@ -123,7 +123,7 @@ of the body.\n
 
 \nIf you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me.\n
     </string>
-    <string name="ytube">DISCLAIMER: I hereby declare that I do not own the rights to this video/vlog. All rights belong to the owner. No Copyright Infringement Intended. It has been under fair use act and i receive zer0 revenue and views since i use YouTube Data API V3 under GOOGLE privacy policy and Terms and conditions.No thermonuclear war, or Murder intended stab stab stab. \n
+    <string name="ytube" tools:ignore="Typos">DISCLAIMER: I hereby declare that I do not own the rights to this video/vlog. All rights belong to the owner. No Copyright Infringement Intended. It has been under fair use act and i receive zer0 revenue and views since i use YouTube Data API V3 under GOOGLE privacy policy and Terms and conditions.No thermonuclear war, or Murder intended stab stab stab. \n
     \n#The Above Black screens indicates Youtube player.\n
     \n#After navigating to a certain page,wait until the youtube playback is completely loaded.\n
         \n#Click  the FullScreen icon on the player to go fullScreen mode.\n
@@ -170,14 +170,14 @@ of the body.\n
 
     \n1.Getting you to eat certain "good" foods and/or avoid "bad" ones
     \n2.Changing how you behave and the ways you think or feel about food\n
-        \nThe best diet for losing weight is one that is good for all parts of your body, from your brain to your toes, and not just for your waistline. It is also one you can live with for a long time. In other words, a diet that offers plenty of good tasting and healthy choices, banishes few foods, and doesnt require an extensive and expensive list of groceries or supplements.
+        \nThe best diet for losing weight is one that is good for all parts of your body, from your brain to your toes, and not just for your waistline. It is also one you can live with for a long time. In other words, a diet that offers plenty of good tasting and healthy choices, banishes few foods, and doesn\'t require an extensive and expensive list of groceries or supplements.
 
 
 
     </string>
     <string name="page6">When Is the Best Time to Exercise\n
-    \nWhile some people are up at the crack of dawn to lace up their running shoes, others cant fathom a workout before noon.Finding the perfect time to exercise is as much about personal preference as it is physiology. Exercise is supposed to feel good
-        \nPlenty of people tout the benefits of early morning sweat sessions, but if you cant fit in a workout before noon, dont sweat it. Research suggests the body could adapt to regular gym dates, so if we hit the weight room every day at 5 p.m., eventually we might perform better at that time than at any other time of day.
+    \nWhile some people are up at the crack of dawn to lace up their running shoes, others can not fathom a workout before noon.Finding the perfect time to exercise is as much about personal preference as it is physiology. Exercise is supposed to feel good
+        \nPlenty of people tout the benefits of early morning sweat sessions, but if you can not fit in a workout before noon, dont sweat it. Research suggests the body could adapt to regular gym dates, so if we hit the weight room every day at 5 p.m., eventually we might perform better at that time than at any other time of day.
 
 
 
@@ -189,7 +189,7 @@ of the body.\n
 
     </string>
     <string name="page8">Mass gainers are protein too. Normally mass gainers supplies 22 to 35% of protein where as Protein powder as such supplies more than 60% proteins. Mass gainer contains more calories than regular whey protein. Mass gainer contains larger amounts of carbohydrates and fats to boost your calorie intake. Both are used for muscle recovery and muscle growth. Good mass gainers contain non sugar complex carbos for prolonged energy supply.\n
-    \nIf someone is a hard gainer or someone who doesnt gain weight easily and want to build a significant amount of muscle mass, then mass gainer would be suitable for him. If one wants slow gains with controlled body fat percentage, a whey protein would probably be enough. Alternately, you can also use both mass gainer and whey protein to avoid gaining too much fat.</string>
+    \nIf someone is a hard gainer or someone who doesn\'t gain weight easily and want to build a significant amount of muscle mass, then mass gainer would be suitable for him. If one wants slow gains with controlled body fat percentage, a whey protein would probably be enough. Alternately, you can also use both mass gainer and whey protein to avoid gaining too much fat.</string>
     <string name="page9">\nRest is important, not just so you can catch your breath and be able to do more exercises, but also because it allows your muscles to recover. To get really scientific about this, we know that your muscles get energy for resistance training from a substance called creatine phosphate. After a set of exercises, it can take up to a minute for the levels of creatine phosphate to get back to normal. So, you gotta wait it out\n
     \nWe all have very different goals when it comes to working out, but for most people looking to improve their muscular fitness, its best to rest for 30 to 90 seconds between sets of an exercise. You should feel energized to get after your next set, but not so relaxed that your heart rate drops and your body cools down.</string>
 
@@ -200,8 +200,8 @@ of the body.\n
 
     1.When training for strength, choose exercises that allow you to lift the most weight and require the most skill.\n
     2. When training for size, choose exercises that allow you to lift the most weight and offer the most isolation on the target area.\n
-        \nThe other big point, which I hope you will remember and incorporate, is that you shouldnt focus exclusively on size until you have achieved at least "decent" strength in the major exercises.\n
-        \nFinally, I will offer the standard reminder that none of these exercises will work for any goal if you dont manage the other elements of your training program volume, intensity, frequency as well as what you do outside the gym. Without proper food and supplements, good sleep habits, and sensible recovery between workouts, it doesnt matter which exercises you choose.
+        \nThe other big point, which I hope you will remember and incorporate, is that you shouldn\'t focus exclusively on size until you have achieved at least "decent" strength in the major exercises.\n
+        \nFinally, I will offer the standard reminder that none of these exercises will work for any goal if you dont manage the other elements of your training program volume, intensity, frequency as well as what you do outside the gym. Without proper food and supplements, good sleep habits, and sensible recovery between workouts, it doesn\'t matter which exercises you choose.
         That said, if you get everything else right, or mostly right, then matching your exercise selection to your goals could be the final piece of the puzzle.
 </string>
     <string name="cts">Connect To Server</string>
@@ -226,7 +226,7 @@ of the body.\n
     <string name="nutrition">NUTRITION</string>
     <string name="full_body_workout_in_tamil">FULL BODY WORKOUT IN TAMIL</string>
     <string name="no_change_after_taking_protein_powder">No Change after Taking Protein Powder?</string>
-    <string name="_5_exercises_for_size_and_strenght">5 Exercises For Size and Strenght</string>
+    <string name="_5_exercises_for_size_and_strenght">5 Exercises For Size and Strength</string>
     <string name="do_steroids_build_muscle">DO STEROIDS BUILD MUSCLE ?</string>
     <string name="facts_of_protein_powder">Facts of Protein Powder</string>
     <string name="how_to_train_optimally">How To Train Optimally</string>

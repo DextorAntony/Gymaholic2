@@ -4,7 +4,6 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.app.Service;
-import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -19,7 +18,6 @@ import java.util.Random;
 public class RingtonePlayingService extends Service {
 
     private boolean isRunning;
-    private Context context;
     MediaPlayer mMediaPlayer;
 
 
@@ -109,14 +107,12 @@ public class RingtonePlayingService extends Service {
             Objects.requireNonNull(mNM).notify(0, mNotify);
 
             this.isRunning = true;
-            startId1 = 0;
 
         }
         else if (!this.isRunning){
             Log.e("if there was not sound ", " and you want end");
 
             this.isRunning = false;
-            startId1 = 0;
 
         }
 
@@ -124,7 +120,6 @@ public class RingtonePlayingService extends Service {
             Log.e("if there is sound ", " and you want start");
 
             this.isRunning = true;
-            startId1 = 0;
 
         }
         else {
@@ -134,7 +129,6 @@ public class RingtonePlayingService extends Service {
             mMediaPlayer.reset();
 
             this.isRunning = false;
-            startId1 = 0;
         }
 
 

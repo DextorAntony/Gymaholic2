@@ -25,8 +25,6 @@ public class MainActivity2 extends AppCompatActivity {
     private TimePicker alarmTimePicker;
     private TextView alarmTextView;
 
-    private AlarmReceiver alarm;
-
 
     MainActivity2 inst;
     Context context;

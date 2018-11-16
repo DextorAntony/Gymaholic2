@@ -47,7 +47,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:drawableEnd="@drawable/ic_donut_large_black_24dp"
-        android:drawableRight="@drawable/ic_donut_large_black_24dp"
         android:text="@string/on"
         app:layout_constraintEnd_toStartOf="@+id/gifImageView"
         app:layout_constraintStart_toStartOf="parent"

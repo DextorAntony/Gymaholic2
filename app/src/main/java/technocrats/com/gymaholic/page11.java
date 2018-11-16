@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class page11 extends AppCompatActivity {
-    private Intent page11;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

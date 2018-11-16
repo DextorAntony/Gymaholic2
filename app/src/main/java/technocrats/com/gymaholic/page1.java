@@ -14,8 +14,6 @@ import android.content.Intent;
 
 public class page1 extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener{
-    public static final String DEVELOPER_KEY = "AIzaSyBe2-EJ6X12gIce7T-P50Bqi0E-Mp0RwHo";
-    private static final String VIDEO_ID = "Y7S_ZmocTsQ";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
     YouTubePlayerFragment myYouTubePlayerFragment;
     @Override
