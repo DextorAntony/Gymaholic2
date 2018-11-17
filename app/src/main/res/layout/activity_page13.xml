@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".page13">
+    tools:context=".page13"
+    tools:ignore="Overdraw">
 
     <fragment
         android:id="@+id/youtubeplayerfragment12"
@@ -27,7 +28,6 @@
         app:layout_constraintTop_toBottomOf="@+id/youtubeplayerfragment12">
 
         <TextView
-            android:id="@+id/textView12a"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"

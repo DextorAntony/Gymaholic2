@@ -155,7 +155,6 @@
             app:srcCompat="@drawable/b10" />
 
         <ImageView
-            android:id="@+id/imageView44"
             android:layout_width="0dp"
             android:layout_height="289dp"
             android:layout_marginStart="8dp"

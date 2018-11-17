@@ -132,7 +132,6 @@
         app:srcCompat="@drawable/t9" android:contentDescription="@null" />
 
     <ImageView
-        android:id="@+id/imageView67"
         android:layout_width="0dp"
         android:layout_height="322dp"
         android:layout_marginStart="8dp"

@@ -196,7 +196,6 @@
         app:srcCompat="@drawable/s14" />
 
     <ImageView
-        android:id="@+id/imageView35"
         android:layout_width="0dp"
         android:layout_height="333dp"
         android:layout_marginStart="8dp"

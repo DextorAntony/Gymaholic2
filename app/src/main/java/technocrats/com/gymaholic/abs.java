@@ -18,7 +18,6 @@ public class abs extends YouTubeBaseActivity
 
 
     private static final int RECOVERY_DIALOG_REQUEST = 1;
-    YouTubePlayerFragment myYouTubePlayerFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +31,7 @@ public class abs extends YouTubeBaseActivity
                startActivity(page);
            }
        });
-        myYouTubePlayerFragment = (YouTubePlayerFragment) getFragmentManager()
+        YouTubePlayerFragment myYouTubePlayerFragment = (YouTubePlayerFragment) getFragmentManager()
                 .findFragmentById(R.id.youtubeplayerfragment);
         myYouTubePlayerFragment.initialize("ROeGxulVFYw", this);
     }
@@ -66,7 +65,7 @@ public class abs extends YouTubeBaseActivity
         }
     }
 
-    protected YouTubePlayer.Provider getYouTubePlayerProvider() {
+    private YouTubePlayer.Provider getYouTubePlayerProvider() {
         return (YouTubePlayerView) findViewById(R.id.youtubeplayerfragment);
     }
 }

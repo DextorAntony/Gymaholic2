@@ -34,7 +34,7 @@
                 android:title="@string/developer_connect" />
         </menu>
     </item>
-    <group android:id="@+id/space">
+    <group>
         <item
             android:id="@+id/fb"
             android:icon="@drawable/fb"

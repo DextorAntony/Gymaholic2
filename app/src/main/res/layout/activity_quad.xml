@@ -141,7 +141,6 @@
             app:srcCompat="@drawable/q9" />
 
         <ImageView
-            android:id="@+id/imageView77"
             android:layout_width="0dp"
             android:layout_height="360dp"
             android:layout_marginStart="8dp"

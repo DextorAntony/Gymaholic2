@@ -19,15 +19,12 @@ import java.util.Random;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    AlarmManager alarmManager;
+    private AlarmManager alarmManager;
     private PendingIntent pending_intent;
 
     private TimePicker alarmTimePicker;
     private TextView alarmTextView;
 
-
-    MainActivity2 inst;
-    Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,13 +32,12 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_alarm);
 
 
-
-        this.context = this;
+        Context context = this;
 
         //alarm = new AlarmReceiver();
         alarmTextView = findViewById(R.id.alarmText);
 
-        final Intent myIntent = new Intent(this.context, AlarmReceiver.class);
+        final Intent myIntent = new Intent(context, AlarmReceiver.class);
 
         // Get the alarm manager service
         alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
@@ -115,7 +111,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
-    public void setAlarmText(String alarmText) {
+    private void setAlarmText(String alarmText) {
         alarmTextView.setText(alarmText);
     }
 
@@ -124,7 +120,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     public void onStart() {
         super.onStart();
-        inst = this;
+        MainActivity2 inst = this;
     }
 
     @Override

@@ -18,7 +18,7 @@ import java.util.Random;
 public class RingtonePlayingService extends Service {
 
     private boolean isRunning;
-    MediaPlayer mMediaPlayer;
+    private MediaPlayer mMediaPlayer;
 
 
     @Nullable
@@ -43,7 +43,7 @@ public class RingtonePlayingService extends Service {
         Notification mNotify  = new Notification.Builder(this)
                 .setContentTitle("WAKE UP" + "!")
                 .setContentText("No Alarm Needed My Passion Wakes Me")
-                .setSmallIcon(R.drawable.icon)
+                .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentIntent(pIntent)
                 .setAutoCancel(true)
                 .build();
@@ -66,7 +66,6 @@ public class RingtonePlayingService extends Service {
         }
 
 
-        int startId1;
         if(!this.isRunning && startId == 1) {
             Log.e("if there was not sound ", " and you want start");
 

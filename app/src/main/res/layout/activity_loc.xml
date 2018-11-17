@@ -21,7 +21,6 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <ImageView
-                android:id="@+id/imageView86"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:contentDescription="@null"
@@ -45,8 +44,8 @@
 
             <ImageView
                 android:id="@+id/page1loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page1" />
@@ -68,8 +67,8 @@
 
             <ImageView
                 android:id="@+id/page2loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page2loc" />
@@ -91,8 +90,8 @@
 
             <ImageView
                 android:id="@+id/page3loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page3loc" />
@@ -114,8 +113,8 @@
 
             <ImageView
                 android:id="@+id/page4loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page4loc" />
@@ -137,8 +136,8 @@
 
             <ImageView
                 android:id="@+id/page5loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page5loc" />
@@ -160,8 +159,8 @@
 
             <ImageView
                 android:id="@+id/page6loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page6" />
@@ -183,8 +182,8 @@
 
             <ImageView
                 android:id="@+id/page7loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page7" />
@@ -206,8 +205,8 @@
 
             <ImageView
                 android:id="@+id/page8loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page8" />
@@ -229,8 +228,8 @@
 
             <ImageView
                 android:id="@+id/page9loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page9" />
@@ -252,8 +251,8 @@
 
             <ImageView
                 android:id="@+id/page10loc"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:contentDescription="@null"
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/page10" />

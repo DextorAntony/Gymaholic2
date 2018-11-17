@@ -44,7 +44,6 @@
             android:contentDescription="@null" />
 
         <ImageView
-            android:id="@+id/imageView9"
             android:layout_width="0dp"
             android:layout_height="450dp"
             android:layout_marginStart="8dp"

@@ -21,7 +21,6 @@ public class quote extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quote);
         ActionBar actionBar = getSupportActionBar();
-        assert actionBar != null;
         actionBar.setTitle("Post List");
 
         mRecyclerView=findViewById(R.id.recyclerView);

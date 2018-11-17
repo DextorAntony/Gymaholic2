@@ -6,7 +6,6 @@
 <!--suppress XmlUnusedNamespaceDeclaration, XmlUnusedNamespaceDeclaration, XmlUnusedNamespaceDeclaration -->
     <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/scrollView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

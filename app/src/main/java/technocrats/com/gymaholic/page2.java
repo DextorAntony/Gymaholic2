@@ -14,10 +14,10 @@ import android.content.Intent;
 
 public class page2 extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener{
-    public static final String DEVELOPER_KEY = "AIzaSyAZZ7_Vp5EDipbrUcPYXrsmgqrkpqWI73A";
+    private static final String DEVELOPER_KEY = "AIzaSyAZZ7_Vp5EDipbrUcPYXrsmgqrkpqWI73A";
     private static final String VIDEO_ID = "ST4eol3JSrM";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
-    YouTubePlayerFragment myYouTubePlayerFragment;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +31,7 @@ public class page2 extends YouTubeBaseActivity
             }
         });
 
-        myYouTubePlayerFragment = (YouTubePlayerFragment)getFragmentManager()
+        YouTubePlayerFragment myYouTubePlayerFragment = (YouTubePlayerFragment) getFragmentManager()
                 .findFragmentById(R.id.youtubeplayerfragment2);
         myYouTubePlayerFragment.initialize(DEVELOPER_KEY, this);
     }
@@ -61,7 +61,7 @@ public class page2 extends YouTubeBaseActivity
             getYouTubePlayerProvider().initialize(DEVELOPER_KEY, this);
         }
     }
-    protected YouTubePlayer.Provider getYouTubePlayerProvider() {
+    private YouTubePlayer.Provider getYouTubePlayerProvider() {
         return (YouTubePlayerView)findViewById(R.id.youtubeplayerfragment2);
     }
 }

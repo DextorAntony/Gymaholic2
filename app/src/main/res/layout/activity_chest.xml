@@ -15,213 +15,183 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="307dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/c1"
-        android:contentDescription="@null" />
+        app:srcCompat="@drawable/c1" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="322dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/c2"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c2" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="308dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:srcCompat="@drawable/c3"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c3" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="320dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:srcCompat="@drawable/c4"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c4" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="283dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/c5"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c5" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="290dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/c6"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c6" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="295dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:srcCompat="@drawable/c7"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c7" />
 
     <ImageView
         android:id="@+id/imageView21"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="282dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@drawable/c8"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c8" />
 
     <ImageView
         android:id="@+id/imageView22"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="315dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView21"
-        app:srcCompat="@drawable/c9"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c9" />
 
     <ImageView
         android:id="@+id/imageView23"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView22"
-        app:srcCompat="@drawable/c10"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c10" />
 
     <ImageView
         android:id="@+id/imageView24"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="326dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView23"
-        app:srcCompat="@drawable/c12"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c12" />
 
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="334dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView24"
-        app:srcCompat="@drawable/c13"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c13" />
 
     <ImageView
         android:id="@+id/imageView26"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="332dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView25"
-        app:srcCompat="@drawable/c14"
-        android:contentDescription="@null" />
+        app:srcCompat="@drawable/c14" />
 
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="341dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView26"
-        app:srcCompat="@drawable/c15"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c15" />
 
     <ImageView
-        android:id="@+id/imageView28"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="308dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
+        android:contentDescription="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView27"
-        app:srcCompat="@drawable/c16"
-        android:contentDescription="@null"/>
+        app:srcCompat="@drawable/c16" />
 
 </android.support.constraint.ConstraintLayout>
 </ScrollView>
