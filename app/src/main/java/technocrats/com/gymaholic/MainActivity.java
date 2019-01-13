@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity
                  startActivity(home);
                     return true;
                 case R.id.navigation_dashboard:
-                    Intent abs = new Intent(getBaseContext(), technocrats.com.gymaholic.abs.class);
+                    Intent abs = new Intent(getBaseContext(), technocrats.com.gymaholic.MainActivity3.class);
                    startActivity(abs);
                     return true;
                 case R.id.navigation_notifications:

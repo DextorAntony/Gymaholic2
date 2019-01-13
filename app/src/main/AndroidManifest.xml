@@ -90,6 +90,19 @@
         <activity android:name=".quote" android:screenOrientation="portrait"/>
         <activity android:name=".server" android:screenOrientation="portrait">
         </activity>
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".bsn" />
+        <activity android:name=".dymatize" />
+        <activity android:name=".healthkart" />
+        <activity android:name=".himalaya" />
+        <activity android:name=".horlicks" />
+        <activity android:name=".isopure" />
+        <activity android:name=".mb" />
+        <activity android:name=".mpharm" />
+        <activity android:name=".muscletech" />
+        <activity android:name=".optnut" />
+        <activity android:name=".proteinx" />
+        <activity android:name=".unutrition" />
 
     </application>
 
