@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".bsn">
@@ -21,7 +19,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="BSN Fish Oil Omega-3 Fatty Acids - 100 Softgels(₹789/-)"
+            android:text="@string/fsh"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +44,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsnf" />
+                app:srcCompat="@drawable/bsnf"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsnf1" />
+                app:srcCompat="@drawable/bsnf1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Isopure BSN Creatine DNA Supplement (309gm)(₹3000/-)"
+            android:text="@string/isopure_bsn_creatine_dna_supplement_309gm_3000"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -104,13 +104,15 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsnc" />
+                app:srcCompat="@drawable/bsnc"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsnc1" />
+                app:srcCompat="@drawable/bsnc1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -122,7 +124,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +139,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="BSN Syntha 6 Protein Powder - 2.91 lbs, 1.32 kg (Chocolate Milkshake)(₹3000/-)"
+            android:text="@string/bsn_syntha_6_protein_powder_2_91_lbs_1_32_kg_chocolate_milkshake_3000"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -160,13 +162,15 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsnp" />
+                app:srcCompat="@drawable/bsnp"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsnp1" />
+                app:srcCompat="@drawable/bsnp1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -179,7 +183,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="BSN Amino X - 30 Servings (Fruit Punch)(₹3200/-)"
+            android:text="@string/bsn_amino_x_30_servings_fruit_punch_3200"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -202,13 +206,15 @@
                 android:id="@+id/imageView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsna" />
+                app:srcCompat="@drawable/bsna"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bsna1" />
+                app:srcCompat="@drawable/bsna1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -220,7 +226,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -234,7 +240,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

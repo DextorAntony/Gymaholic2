@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".proteinx">
@@ -21,7 +19,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Protinex - 250 g (Tasty Chocolate) (₹ 276/-)"
+            android:text="@string/protinex_250_g_tasty_chocolate_276"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +44,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/pxc" />
+                app:srcCompat="@drawable/pxc"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/pxc1" />
+                app:srcCompat="@drawable/pxc1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Protinex Original Tin - 250 g (₹ 356/- )"
+            android:text="@string/protinex_original_tin_250_g_356"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +104,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/pxo" />
+                app:srcCompat="@drawable/pxo"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -116,7 +117,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -131,7 +132,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Protinex Fruit Mix - 250 g (₹ 278/-)"
+            android:text="@string/protinex_fruit_mix_250_g_278"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -154,7 +155,8 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/pxf" />
+                app:srcCompat="@drawable/pxf"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -166,7 +168,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

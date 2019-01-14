@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".isopure">
@@ -21,7 +19,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Isopure Low Carb 100% Whey Protein Isolate Powder - 1 lb, 454 g (Chocolate)(₹1397/-)"
+            android:text="@string/isopure_low_carb_100_whey_protein_isolate_powder_1_lb_454_g_chocolate_1397"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +44,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/isow" />
+                app:srcCompat="@drawable/isow"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/iso1" />
+                app:srcCompat="@drawable/iso1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text=" Isopure Zero Carb 100% Whey Protein Isolate Powder - 1 lb, 454 g (Cookies and Cream)(₹1,397.00/-)"
+            android:text="@string/isopure_zero_carb_100_whey_protein_isolate_powder_1_lb_454_g_cookies_and_cream_1_397_00"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +104,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/isoc1" />
+                app:srcCompat="@drawable/isoc1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -116,7 +117,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -131,7 +132,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Isopure Low Carb 100% Whey Protein Isolate Powder - 3 lbs, 1.36 kg (Dutch Chocolate)(₹5,495.00/-)"
+            android:text="@string/isopure_low_carb_100_whey_protein_isolate_powder_3_lbs_1_36_kg_dutch_chocolate_5_495_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -154,7 +155,8 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/isod" />
+                app:srcCompat="@drawable/isod"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -166,7 +168,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".healthkart">
@@ -19,7 +17,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="Healthkart 100% Whey Protein Supplement Powder 2 Kg/ 4.4 Lb, Chocolate (25 G Protein In 31 G Serving)(₹3,299.00)"
+            android:text="@string/healthkart_100_whey_protein_supplement_powder_2_kg_4_4_lb_chocolate_25_g_protein_in_31_g_serving_3_299_00"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,13 +42,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hk1" />
+                app:srcCompat="@drawable/hk1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hk2" />
+                app:srcCompat="@drawable/hk2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -63,7 +63,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="HealthKart 50% Protein with Whey and Casein, 1kg, Café Mocha(₹854.00)"
+            android:text="@string/healthkart_50_protein_with_whey_and_casein_1kg_caf_mocha_854_00"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -102,13 +102,15 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hk501" />
+                app:srcCompat="@drawable/hk501"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hk502" />
+                app:srcCompat="@drawable/hk502"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -120,7 +122,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -135,7 +137,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="HealthKart 100% Pure Whey Protein Concentrate, 1 Kg/2.2 lb (Unflavoured)(₹1,299.00)"
+            android:text="@string/healthkart_100_pure_whey_protein_concentrate_1_kg_2_2_lb_unflavoured_1_299_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -158,13 +160,15 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hkp1" />
+                app:srcCompat="@drawable/hkp1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hkp2" />
+                app:srcCompat="@drawable/hkp2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -177,7 +181,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Healthkart Fish Oil (1000 Omega 3 , With 180 Mg Epa and 120 Mg Dha) 60 Softgels(₹399.00)"
+            android:text="@string/healthkart_fish_oil_1000_omega_3_with_180_mg_epa_and_120_mg_dha_60_softgels_399_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -200,13 +204,15 @@
                 android:id="@+id/imageView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hkf" />
+                app:srcCompat="@drawable/hkf"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hkf1" />
+                app:srcCompat="@drawable/hkf1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -219,7 +225,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="HealthKart Weight Gainer for Men and Women - 1 kg (Chocolate)(₹699.00)"
+            android:text="@string/healthkart_weight_gainer_for_men_and_women_1_kg_chocolate_699_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -242,13 +248,15 @@
                 android:id="@+id/imageView19"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hkw" />
+                app:srcCompat="@drawable/hkw"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hkw1" />
+                app:srcCompat="@drawable/hkw1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -261,7 +269,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="HealthKart Whey Protein with Oats, 2.2 lb / 1Kg Chocolate(₹1,250.00)"
+            android:text="@string/healthkart_whey_protein_with_oats_2_2_lb_1kg_chocolate_1_250_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -284,13 +292,15 @@
                 android:id="@+id/imageView21"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hko" />
+                app:srcCompat="@drawable/hko"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView26"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/hko1" />
+                app:srcCompat="@drawable/hko1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -302,7 +312,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -316,7 +326,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -330,7 +340,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -344,7 +354,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"

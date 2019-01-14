@@ -7,12 +7,11 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class MainActivity3 extends AppCompatActivity {
-private ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-        imageView = (ImageView)findViewById(R.id.imageView);
+        ImageView imageView = findViewById(R.id.imageView);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -20,7 +19,7 @@ private ImageView imageView;
                 startActivity(opt);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView2);
+        imageView = findViewById(R.id.imageView2);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,7 +28,7 @@ private ImageView imageView;
             }
         });
 
-        imageView =(ImageView)findViewById(R.id.imageView3);
+        imageView = findViewById(R.id.imageView3);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,7 +36,7 @@ private ImageView imageView;
                 startActivity(un);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView4);
+        imageView = findViewById(R.id.imageView4);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,7 +44,7 @@ private ImageView imageView;
                 startActivity(hk);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView5);
+        imageView = findViewById(R.id.imageView5);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +52,7 @@ private ImageView imageView;
                 startActivity(hp);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView6);
+        imageView = findViewById(R.id.imageView6);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,7 +60,7 @@ private ImageView imageView;
                 startActivity(px);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView7);
+        imageView = findViewById(R.id.imageView7);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -69,7 +68,7 @@ private ImageView imageView;
                 startActivity(mct);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView8);
+        imageView = findViewById(R.id.imageView8);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +76,7 @@ private ImageView imageView;
                 startActivity(iso);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView9);
+        imageView = findViewById(R.id.imageView9);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -85,7 +84,7 @@ private ImageView imageView;
                 startActivity(bsn);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView10);
+        imageView = findViewById(R.id.imageView10);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -93,7 +92,7 @@ private ImageView imageView;
                 startActivity(px);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView11);
+        imageView = findViewById(R.id.imageView11);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -101,7 +100,7 @@ private ImageView imageView;
                 startActivity(hm);
             }
         });
-        imageView =(ImageView)findViewById(R.id.imageView12);
+        imageView = findViewById(R.id.imageView12);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".dymatize">
@@ -21,7 +19,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Dymatize Nutrition Super Amino 6000mg - 180 Caplets (₹1100/-)"
+            android:text="@string/dymatize_nutrition_super_amino_6000mg_180_caplets_1100"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +44,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/da" />
+                app:srcCompat="@drawable/da"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/da1" />
+                app:srcCompat="@drawable/da1"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Dymatize Nutrition ISO 100 - 5 Lbs (GOURMET CHOCOLATE)(₹7825/-)"
+            android:text="@string/dymatize_nutrition_iso_100_5_lbs_gourmet_chocolate_7825"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -104,7 +104,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/dw" />
+                app:srcCompat="@drawable/dw"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -116,7 +117,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

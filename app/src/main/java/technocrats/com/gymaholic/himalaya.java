@@ -9,16 +9,14 @@ import android.widget.Button;
 import android.widget.ViewFlipper;
 
 public class himalaya extends AppCompatActivity {
-    private ViewFlipper vf;
-    private Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_himalaya);
-        vf = findViewById(R.id.vf);
-        vf.setFlipInterval(300);
+        ViewFlipper vf = findViewById(R.id.vf);
+        vf.setFlipInterval(1400);
         vf.startFlipping();
-        button2 = findViewById(R.id.button2);
+        Button button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".optnut">
@@ -21,7 +19,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Optimum Nutrition (ON) Micronized Creatine Monohydrate Powder - 100 Servings (Unflavored)(₹989/-)"
+            android:text="@string/optimum_nutrition_on_micronized_creatine_monohydrate_powder_100_servings_unflavored_989"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +44,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/op1" />
+                app:srcCompat="@drawable/op1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/op2" />
+                app:srcCompat="@drawable/op2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -78,7 +78,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="Optimum Nutrition (ON) Gold Standard 100% Whey Protein Powder - 1 lb (Double Rich Chocolate)(₹1499/-)"
+            android:text="@string/optimum_nutrition_on_gold_standard_100_whey_protein_powder_1_lb_double_rich_chocolate_1499"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -102,13 +102,15 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/w1" />
+                app:srcCompat="@drawable/w1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/w2" />
+                app:srcCompat="@drawable/w2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -120,7 +122,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -135,7 +137,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Optimum Nutrition (ON) 100% Whey Protein Powder - 1.85 lbs, 837 g (Chocolate)(₹2024)"
+            android:text="@string/optimum_nutrition_on_100_whey_protein_powder_1_85_lbs_837_g_chocolate_2024"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -158,13 +160,15 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/whey1" />
+                app:srcCompat="@drawable/whey1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/whey2" />
+                app:srcCompat="@drawable/whey2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -177,7 +181,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Optimum Nutrition (ON) Fish Oil Omega-3 Fatty Acids - 100 Softgels(₹1971/-) "
+            android:text="@string/optimum_nutrition_on_fish_oil_omega_3_fatty_acids_100_softgels_1971"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -200,13 +204,15 @@
                 android:id="@+id/imageView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/fish1" />
+                app:srcCompat="@drawable/fish1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/fish2" />
+                app:srcCompat="@drawable/fish2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -219,7 +225,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Optimum Nutrition (ON) Amino Energy Drink - 30 Servings (Blue Raspberry)(₹1822/-)"
+            android:text="@string/optimum_nutrition_on_amino_energy_drink_30_servings_blue_raspberry_1822"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -242,13 +248,15 @@
                 android:id="@+id/imageView19"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/ammini1" />
+                app:srcCompat="@drawable/ammini1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/ammino2" />
+                app:srcCompat="@drawable/ammino2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -261,7 +269,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Optimum Nutrition (ON) BCAA Branched Chain Amino Acids 1000 mg - 60 Capsules(₹1265)"
+            android:text="@string/optimum_nutrition_on_bcaa_branched_chain_amino_acids_1000_mg_60_capsules_1265"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -284,13 +292,15 @@
                 android:id="@+id/imageView21"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bcaa1" />
+                app:srcCompat="@drawable/bcaa1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView26"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/bcaa2" />
+                app:srcCompat="@drawable/bcaa2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -302,7 +312,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -316,7 +326,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -330,7 +340,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -344,7 +354,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"

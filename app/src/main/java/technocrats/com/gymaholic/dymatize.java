@@ -9,17 +9,14 @@ import android.widget.Button;
 import android.widget.ViewFlipper;
 
 public class dymatize extends AppCompatActivity {
-    private ViewFlipper vf;
-    private Button button2;
-    private Button button4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dymatize);
-        vf = findViewById(R.id.vf);
-        vf.setFlipInterval(300);
+        ViewFlipper vf = findViewById(R.id.vf);
+        vf.setFlipInterval(1400);
         vf.startFlipping();
-        button2 = findViewById(R.id.button2);
+        Button button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -29,7 +26,7 @@ public class dymatize extends AppCompatActivity {
                         )));
             }
         });
-        button4 = findViewById(R.id.button4);
+        Button button4 = findViewById(R.id.button4);
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -5,9 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:context=".mb">
@@ -21,7 +19,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="MuscleBlaze Beginner's Whey Protein Supplement (Chocolate, 1 Kg)(₹933/-)"
+            android:text="@string/muscleblaze_beginner_s_whey_protein_supplement_chocolate_1_kg_933"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -46,13 +44,15 @@
                 android:id="@+id/imageView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mbwhey1" />
+                app:srcCompat="@drawable/mbwhey1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mbwhey2" />
+                app:srcCompat="@drawable/mbwhey2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -65,7 +65,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="MuscleBlaze Mass Gainer XXL - 1 kg (Chocolate)(₹873.00)"
+            android:text="@string/muscleblaze_mass_gainer_xxl_1_kg_chocolate_873_00"
             android:textAllCaps="false"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
@@ -104,13 +104,15 @@
                 android:id="@+id/imageView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mg1" />
+                app:srcCompat="@drawable/mg1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mg2" />
+                app:srcCompat="@drawable/mg2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -122,7 +124,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -137,7 +139,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="MuscleBlaze Creatine Monohydrate Powder, 100 g(₹184.00)"
+            android:text="@string/muscleblaze_creatine_monohydrate_powder_100_g_184_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -160,13 +162,15 @@
                 android:id="@+id/imageView24"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mc1" />
+                app:srcCompat="@drawable/mc1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mc2" />
+                app:srcCompat="@drawable/mc2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -179,7 +183,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="MuscleBlaze Omega 3 Fish Oil -1000 mg(₹898.00 )"
+            android:text="@string/muscleblaze_omega_3_fish_oil_1000_mg_898_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.0"
@@ -202,13 +206,15 @@
                 android:id="@+id/imageView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mf1" />
+                app:srcCompat="@drawable/mf1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mf2" />
+                app:srcCompat="@drawable/mf2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -221,7 +227,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="MuscleBlaze Mass Gainer PRO with Creapure - 1 kg (Chocolate)(₹1,033.00)"
+            android:text="@string/muscleblaze_mass_gainer_pro_with_creapure_1_kg_chocolate_1_033_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -244,13 +250,15 @@
                 android:id="@+id/imageView19"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mgp1" />
+                app:srcCompat="@drawable/mgp1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/mgp2" />
+                app:srcCompat="@drawable/mgp2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -263,7 +271,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="Muscleblaze Mb-Vite Multivitamin - 60 Tablets( ₹417.00)"
+            android:text="@string/muscleblaze_mb_vite_multivitamin_60_tablets_417_00"
             android:textColor="@color/colorPrimary"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -286,13 +294,15 @@
                 android:id="@+id/imageView21"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/vit1" />
+                app:srcCompat="@drawable/vit1"
+                android:contentDescription="@null" />
 
             <ImageView
                 android:id="@+id/imageView26"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/vit2" />
+                app:srcCompat="@drawable/vit2"
+                android:contentDescription="@null" />
 
         </ViewFlipper>
 
@@ -304,7 +314,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -318,7 +328,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -332,7 +342,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -346,7 +356,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
-            android:text="CLICK TO BUY NOW ON AMAZON"
+            android:text="@string/amazon"
             android:textColor="@color/colorAccent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"

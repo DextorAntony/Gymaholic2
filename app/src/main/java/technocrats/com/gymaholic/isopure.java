@@ -9,20 +9,16 @@ import android.widget.Button;
 import android.widget.ViewFlipper;
 
 public class isopure extends AppCompatActivity {
-    private ViewFlipper vf;
 
-    private Button button2;
-    private Button button4;
-    private Button button19;
-    private Button button20;
+    // --Commented out by Inspection (14/1/19 6:44 PM):private Button button20;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_muscletech);
-        vf = findViewById(R.id.vf);
-        vf.setFlipInterval(3000);
+        ViewFlipper vf = findViewById(R.id.vf);
+        vf.setFlipInterval(1300);
         vf.startFlipping();
-        button2 = findViewById(R.id.button2);
+        Button button2 = findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,7 +29,7 @@ public class isopure extends AppCompatActivity {
             }
         });
 
-        button4 = findViewById(R.id.button4);
+        Button button4 = findViewById(R.id.button4);
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,7 +39,7 @@ public class isopure extends AppCompatActivity {
                         )));
             }
         });
-        button19 = findViewById(R.id.button19);
+        Button button19 = findViewById(R.id.button19);
         button19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

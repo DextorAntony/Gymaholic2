@@ -7,9 +7,9 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-public class ViewHolder extends RecyclerView.ViewHolder {
+class ViewHolder extends RecyclerView.ViewHolder {
 
-    View mView;
+    final View mView;
 
 
     public ViewHolder( View itemView) {

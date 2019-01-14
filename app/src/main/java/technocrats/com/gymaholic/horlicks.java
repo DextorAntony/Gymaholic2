@@ -9,16 +9,14 @@ import android.widget.Button;
 import android.widget.ViewFlipper;
 
 public class horlicks extends AppCompatActivity {
-private ViewFlipper vf;
-private Button button7;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_horlicks);
-        vf = findViewById(R.id.vf);
-        vf.setFlipInterval(300);
+        ViewFlipper vf = findViewById(R.id.vf);
+        vf.setFlipInterval(1400);
 vf.startFlipping();
-        button7 = findViewById(R.id.button7);
+        Button button7 = findViewById(R.id.button7);
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

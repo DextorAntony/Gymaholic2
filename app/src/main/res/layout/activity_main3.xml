@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/marble">
 
-        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:app="http://schemas.android.com/apk/res-auto"
-            xmlns:tools="http://schemas.android.com/tools"
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:context=".MainActivity">
@@ -26,7 +24,8 @@
                     app:layout_constraintEnd_toStartOf="@+id/imageView2"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView"
-                    app:srcCompat="@drawable/bfree" />
+                    app:srcCompat="@drawable/bfree"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView2"
@@ -41,7 +40,8 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView"
                     app:layout_constraintTop_toBottomOf="@+id/textView"
-                    app:srcCompat="@drawable/mb1" />
+                    app:srcCompat="@drawable/mb1"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -55,7 +55,8 @@
                     app:layout_constraintEnd_toStartOf="@+id/imageView4"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView"
-                    app:srcCompat="@drawable/bfree3" />
+                    app:srcCompat="@drawable/bfree3"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView4"
@@ -70,7 +71,8 @@
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView3"
                     app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                    app:srcCompat="@drawable/bfree4" />
+                    app:srcCompat="@drawable/bfree4"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView5"
@@ -82,7 +84,8 @@
                     app:layout_constraintEnd_toStartOf="@+id/imageView6"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView3"
-                    app:srcCompat="@drawable/b55" />
+                    app:srcCompat="@drawable/b55"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -97,7 +100,8 @@
                     app:layout_constraintHorizontal_bias="1.0"
                     app:layout_constraintStart_toEndOf="@+id/imageView5"
                     app:layout_constraintTop_toBottomOf="@+id/imageView4"
-                    app:srcCompat="@drawable/s" />
+                    app:srcCompat="@drawable/s"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView7"
@@ -109,7 +113,8 @@
                     app:layout_constraintEnd_toStartOf="@+id/imageView8"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView5"
-                    app:srcCompat="@drawable/s22" />
+                    app:srcCompat="@drawable/s22"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView8"
@@ -124,21 +129,23 @@
                     app:layout_constraintHorizontal_bias="0.615"
                     app:layout_constraintStart_toEndOf="@+id/imageView7"
                     app:layout_constraintTop_toBottomOf="@+id/imageView6"
-                    app:srcCompat="@drawable/jf" />
+                    app:srcCompat="@drawable/jf"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="0dp"
                     android:layout_height="90dp"
                     android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
+
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="10dp"
-                    android:layout_marginRight="10dp"
+
                     app:layout_constraintEnd_toStartOf="@+id/imageView10"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView7"
-                    app:srcCompat="@drawable/pp" />
+                    app:srcCompat="@drawable/pp"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView10"
@@ -152,7 +159,8 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView9"
                     app:layout_constraintTop_toBottomOf="@+id/imageView8"
-                    app:srcCompat="@drawable/pop" />
+                    app:srcCompat="@drawable/pop"
+                    android:contentDescription="@null" />
 
                 <ImageView
                     android:id="@+id/imageView11"
@@ -166,7 +174,8 @@
                     app:layout_constraintEnd_toStartOf="@+id/imageView12"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageView9"
-                    app:srcCompat="@drawable/oop" />
+                    app:srcCompat="@drawable/oop"
+                    android:contentDescription="@null" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -177,7 +186,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginRight="8dp"
-                    android:text="TOP BRANDS"
+                    android:text="@string/top_brands"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -198,6 +207,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/imageView11"
                     app:layout_constraintTop_toBottomOf="@+id/imageView10"
-                    app:srcCompat="@drawable/nn" />
+                    app:srcCompat="@drawable/nn"
+                    android:contentDescription="@null" />
         </android.support.constraint.ConstraintLayout>
 </ScrollView>
