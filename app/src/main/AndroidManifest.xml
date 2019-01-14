@@ -18,7 +18,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SplashActivity"
+        <activity android:name=".grid"></activity>
+        <activity android:name=".list" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,8 +34,7 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".home"
             android:screenOrientation="portrait" />
@@ -43,19 +46,30 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".chest"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".shoulder"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".bicep" android:screenOrientation="portrait"/>
-        <activity android:name=".back" android:screenOrientation="portrait"/>
-        <activity android:name=".tricep" android:screenOrientation="portrait"/>
-        <activity android:name=".quad" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".chest"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".shoulder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bicep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".back"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tricep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quad"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".abs"
             android:screenOrientation="portrait" />
-        <activity android:name=".ppp"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ppp"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".page1"
             android:screenOrientation="portrait" />
@@ -71,13 +85,24 @@
         <activity
             android:name=".page5"
             android:screenOrientation="portrait" />
-        <activity android:name=".loc" android:screenOrientation="portrait"/>
-        <activity android:name=".page6" android:screenOrientation="portrait"/>
-        <activity android:name=".page7" android:screenOrientation="portrait"/>
-        <activity android:name=".page8" android:screenOrientation="portrait"/>
-        <activity android:name=".page9" android:screenOrientation="portrait"/>
-        <activity android:name=".page10" android:screenOrientation="portrait"/>
-        <activity android:name=".page11" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".loc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page10"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity2"
             android:screenOrientation="portrait" />
@@ -88,25 +113,57 @@
             android:name=".RingtonePlayingService"
             android:enabled="true" />
 
-        <activity android:name=".page12" android:screenOrientation="portrait"/>
-        <activity android:name=".page13" android:screenOrientation="portrait"/>
-        <activity android:name=".quote" android:screenOrientation="portrait"/>
-        <activity android:name=".server" android:screenOrientation="portrait">
-        </activity>
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".bsn" />
-        <activity android:name=".dymatize" />
-        <activity android:name=".healthkart" />
-        <activity android:name=".himalaya" />
-        <activity android:name=".horlicks" />
-        <activity android:name=".isopure" />
-        <activity android:name=".mb" />
-        <activity android:name=".mpharm" />
-        <activity android:name=".muscletech" />
-        <activity android:name=".optnut" />
-        <activity android:name=".proteinx" />
-        <activity android:name=".unutrition" />
-
+        <activity
+            android:name=".page12"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".page13"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".quote"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".server"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bsn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dymatize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".healthkart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".himalaya"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".horlicks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".isopure"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mpharm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".muscletech"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".optnut"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".proteinx"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".unutrition"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

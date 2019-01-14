@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Objects;
 
-public class quote extends AppCompatActivity {
+public class list extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private DatabaseReference mRef;
@@ -23,10 +23,9 @@ public class quote extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quote);
+        setContentView(R.layout.activity_list);
         ActionBar actionBar = getSupportActionBar();
         Objects.requireNonNull(actionBar).setTitle("Quotes");
-
         mRecyclerView=findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize(true);
 
@@ -52,7 +51,7 @@ public class quote extends AppCompatActivity {
                         viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(quote.this,"Action not allowed,you can take screenshot though",Toast.LENGTH_LONG).show();
+                                Toast.makeText(list.this,"Action not allowed,you can take screenshot though",Toast.LENGTH_LONG).show();
                             }
                         });
 

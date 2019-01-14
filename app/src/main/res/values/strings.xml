@@ -109,7 +109,10 @@ of the body.\n
         \n**Links to Other Sites**\n
 
 \nThis Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.\n
-    \n**Children’s Privacy**\n
+    \n**AMAZON PRODUCTS**\n
+        \n I do not sell or promote any products on amazon. The products featured in the app are sorted by popularity, overall reviews, and price. I strongly recommend you to consult your physical fitness trainer or a doctor before using any kind of supplements. I do not hold any responsible for the side affects or any issues.\n
+
+        \n**Children’s Privacy**\n
 
 \nThese Services do not address anyone under the age of 13\. I do not knowingly collect personally identifiable information from children under 13\. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.\n
        \n **Changes to This Privacy Policy**\n
@@ -191,7 +194,6 @@ of the body.\n
     \nWe all have very different goals when it comes to working out, but for most people looking to improve their muscular fitness, its best to rest for 30 to 90 seconds between sets of an exercise. You should feel energized to get after your next set, but not so relaxed that your heart rate drops and your body cools down.</string>
 
     <string name="page10">When you are working out hard, you want to see results fast. While supplements such as whey protein and creatine have been proven to help improve strength, muscle growth and recovery, the amount of time it takes to work depends on a number of factors, including your workout routine, age and fitness level. Talk to your doctor before making changes to your exercise routine or adding supplements, such as whey and creatine, to your diet regimen.</string>
-    <string name="thankyou">Hey Guys Thank you For Downloading Beta Version of this app,More contents with Improved UI/Ux designs using Google Flutter and Dart Programming Language  will be expected as an update at the end of November 2018</string>
     <string name="tf">Tamil Fitness</string>
     <string name="page12">Remember the two most important points:\n
 
@@ -201,7 +203,7 @@ of the body.\n
         \nFinally, I will offer the standard reminder that none of these exercises will work for any goal if you dont manage the other elements of your training program volume, intensity, frequency as well as what you do outside the gym. Without proper food and supplements, good sleep habits, and sensible recovery between workouts, it doesn\'t matter which exercises you choose.
         That said, if you get everything else right, or mostly right, then matching your exercise selection to your goals could be the final piece of the puzzle.
 </string>
-    <string name="cts">Connect To Server</string>
+    <string name="cts">Connect To Server (list_View)</string>
     <string name="on">Server Online</string>
     <string name="page13">Meal Plan for Bulking and Maintaining:
     \n----4 Meals----

@@ -180,7 +180,16 @@ public class MainActivity extends AppCompatActivity
             Intent alarm = new Intent(getBaseContext(), MainActivity2.class);
 startActivity(alarm);
 
-        } else if (id == R.id.nav_manage) {
+        }
+
+        else if (id == R.id.nav_shop) {
+
+            Intent shop = new Intent(getBaseContext(),MainActivity3.class);
+            startActivity(shop);
+
+        }
+
+        else if (id == R.id.nav_manage) {
             Intent quote = new Intent(getBaseContext(),server.class);
             startActivity(quote);
 

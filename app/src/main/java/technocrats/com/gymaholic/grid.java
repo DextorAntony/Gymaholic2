@@ -4,7 +4,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Toast;
@@ -15,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Objects;
 
-public class quote extends AppCompatActivity {
+public class grid extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private DatabaseReference mRef;
@@ -23,14 +22,14 @@ public class quote extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quote);
+        setContentView(R.layout.activity_grid);
         ActionBar actionBar = getSupportActionBar();
         Objects.requireNonNull(actionBar).setTitle("Quotes");
-
+        int noc =2;
         mRecyclerView=findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize(true);
 
-        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+        mRecyclerView.setLayoutManager(new GridLayoutManager(this,noc));
 
         FirebaseDatabase mFirebaseDatabase = FirebaseDatabase.getInstance();
         mRef= mFirebaseDatabase.getReference("Data");
@@ -52,7 +51,7 @@ public class quote extends AppCompatActivity {
                         viewHolder.mView.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                Toast.makeText(quote.this,"Action not allowed,you can take screenshot though",Toast.LENGTH_LONG).show();
+                                Toast.makeText(grid.this,"Action not allowed,you can take screenshot though",Toast.LENGTH_LONG).show();
                             }
                         });
 

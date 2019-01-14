@@ -21,6 +21,7 @@
             android:icon="@drawable/ic_fitness_center_black_24dp"
             android:title="@string/motivational_quotes" />
         <item
+            android:id="@+id/nav_shop"
             android:icon="@drawable/ic_shopping_cart_black_24dp"
             android:title="@string/shop" />
     </group>
