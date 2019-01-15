@@ -8,31 +8,19 @@ import com.google.android.youtube.player.YouTubePlayerFragment;
 import com.google.android.youtube.player.YouTubePlayerView;
 import com.google.android.youtube.player.YouTubePlayer.Provider;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
 
 public class page13 extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener{
     private static final String DEVELOPER_KEY = "AIzaSyC-3O5zbo3wLEixNT2-WPxGV8o_MajH8fU";
-    private static final String VIDEO_ID = "GYlGQuLU1r8";
+    private static final String VIDEO_ID = "gVA1r5_0kcg";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
-private Button HOME;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page13);
-        HOME = findViewById(R.id.HOME);
-        HOME.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent home = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(home);
-            }
-        });
-
         YouTubePlayerFragment myYouTubePlayerFragment = (YouTubePlayerFragment) getFragmentManager()
                 .findFragmentById(R.id.youtubeplayerfragment12);
         myYouTubePlayerFragment.initialize(DEVELOPER_KEY, this);

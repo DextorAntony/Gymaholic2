@@ -2,13 +2,21 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword 'qwertyuiop.1'
+            storeFile file('/home/cg/Documents/gymfinal.jks')
+            storePassword 'qwertyuiop.1'
+        }
+    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "technocrats.com.gymaholic"
         minSdkVersion 19
         targetSdkVersion 28
-        versionCode 8
-        versionName "3.0"
+        versionCode 12
+        versionName "12.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -22,6 +30,7 @@ android {
             }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }

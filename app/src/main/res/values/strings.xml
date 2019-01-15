@@ -280,4 +280,9 @@ of the body.\n
     <string name="ultimate_nutrition_prostar_100_whey_protein_5_28_lbs_chocolate_creme_3_599_00">Ultimate Nutrition Prostar 100% Whey Protein - 5.28 lbs (Chocolate Creme)(₹3,599.00)</string>
     <string name="ultimate_nutrition_prostar_100_whey_protein_907gms_van_2_050_00">Ultimate Nutrition Prostar 100% Whey Protein 907Gms Van(₹2,050.00)</string>
     <string name="ultimate">Ultimate Nutrition 100 percent Crystalline BCAA 12000 457.6 g (Orange)(₹2,099)</string>
+    <string name="grid_view">GRID VIEW</string>
+    <string name="list_view">LIST VIEW</string>
+    <string name="timing_your_post_workout_meal_tamil">Timing your Post Workout Meal | Tamil</string>
+    <string name="simple_tips_for_fat_loss_tamil">Simple Tips For Fat Loss | Tamil</string>
+
 </resources>

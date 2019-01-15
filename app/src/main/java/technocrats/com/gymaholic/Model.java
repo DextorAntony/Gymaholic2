@@ -2,7 +2,8 @@ package technocrats.com.gymaholic;
 
 class Model {
 
-    private String title,image;
+    private String title;
+    private  String image;
 
     public Model(){}
 

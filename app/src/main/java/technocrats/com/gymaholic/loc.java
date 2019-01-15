@@ -122,7 +122,7 @@ page2loc.setOnClickListener(new View.OnClickListener() {
         page11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent page11=new Intent(getApplicationContext(),page13.class);
+                Intent page11=new Intent(getApplicationContext(),page11.class);
                 startActivity(page11);
             }
         });
@@ -136,8 +136,22 @@ page2loc.setOnClickListener(new View.OnClickListener() {
             }
         });
 
-
-
+        ImageView page13 = findViewById(R.id.page13);
+        page13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent page13=new Intent(getApplicationContext(),page13.class);
+                startActivity(page13);
+            }
+        });
+        ImageView page14 = findViewById(R.id.page14);
+        page14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent page14=new Intent(getApplicationContext(),post.class);
+                startActivity(page14);
+            }
+        });
 
     }
 }
