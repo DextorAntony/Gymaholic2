@@ -1,6 +1,5 @@
 package technocrats.com.gymaholic;
 
-
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
@@ -14,16 +13,16 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
 
-public class page13 extends YouTubeBaseActivity
+public class post extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener{
     private static final String DEVELOPER_KEY = "AIzaSyC-3O5zbo3wLEixNT2-WPxGV8o_MajH8fU";
-    private static final String VIDEO_ID = "gVA1r5_0kcg";
+    private static final String VIDEO_ID = "nAmYZfwziHI";
     private static final int RECOVERY_DIALOG_REQUEST = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_page13);
+        setContentView(R.layout.activity_post);
         YouTubePlayerFragment myYouTubePlayerFragment = (YouTubePlayerFragment) getFragmentManager()
                 .findFragmentById(R.id.youtubeplayerfragment12);
         myYouTubePlayerFragment.initialize(DEVELOPER_KEY, this);

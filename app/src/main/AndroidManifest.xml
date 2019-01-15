@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".page11"></activity>
+        <activity android:name=".post" />
         <activity android:name=".grid" />
         <activity android:name=".list" />
         <activity
