@@ -77,26 +77,26 @@ public class RingtonePlayingService extends Service {
             Log.e("random number is ", String.valueOf(random_number));
 
             if (random_number == 1) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_3);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.r3);
             }
             else if (random_number == 2) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_2);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.r2);
 
             }
                 else if (random_number == 3) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.r1);
             }
  else if (random_number == 4) {
-                    mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_4);
+                    mMediaPlayer = MediaPlayer.create(this, R.raw.r4);
 
                 }
             else if (random_number == 5) {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_5);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.r5);
 
 
             }
             else {
-                mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
+                mMediaPlayer = MediaPlayer.create(this, R.raw.r1);
             }
             //mMediaPlayer = MediaPlayer.create(this, R.raw.richard_dawkins_1);
 
