@@ -1,4 +1,22 @@
- 
+ <!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better please fork the repo and create a pull request or simple open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
+
+
+
+<!-- PROJECT SHIELDS -->
+[![Build Status][build-shield]]()
+[![Contributors][contributors-shield]]()
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+
  # Gymaholic2
 
 Project started on sept 2018
