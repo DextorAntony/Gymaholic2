@@ -1,24 +1,3 @@
- <!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better please fork the repo and create a pull request or simple open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-
-
-<!-- PROJECT SHIELDS -->
- [![Build Status][build-shield]]()
- 
- [![Contributors][contributors-shield]]()
- 
- [![MIT License][license-shield]][license-url]
- [![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
  # Gymaholic2
 
 Project started on sept 2018
@@ -37,6 +16,15 @@ Project started on sept 2018
 🍳 GET NUTRIENTS: The food we eat plays a vital role in how we look and feel. Regular exercise is important but according to research, nutrition has the largest impact on our fitness. Using food as our medicine has become a popular theme for health improvement.
 The trend is now to focus on healthy food intake as a primary fitness goal. When healthy eating habits become a lifestyle, we are healthier and happier. ​Eating right allows us to reduce body fat, lose a few pounds, feel more confident and reduce our risk of illness.
 
+# Contributing
+
+   Contributions are what make the community such an amazing place to be learn, inspire, and create. Any contributions you make        
+   are greatly appreciated.
+
+# CONTACT
+   
+   IG - herr__kommandant
+  
 # LICENSE
 
 Licensed under the [MIT License](LICENSE).
