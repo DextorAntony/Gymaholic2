@@ -14,4 +14,4 @@ Project started on sept 2018
 The trend is now to focus on healthy food intake as a primary fitness goal. When healthy eating habits become a lifestyle, we are healthier and happier. ​Eating right allows us to reduce body fat, lose a few pounds, feel more confident and reduce our risk of illness.
 
 
-Licensed under the [MIT Licence] (licence).
+Licensed under the [MIT License] (license).
