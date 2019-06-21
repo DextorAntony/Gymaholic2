@@ -12,3 +12,4 @@ Project started on sept 2018
 
 🍳 GET NUTRIENTS: The food we eat plays a vital role in how we look and feel. Regular exercise is important but according to research, nutrition has the largest impact on our fitness. Using food as our medicine has become a popular theme for health improvement.
 The trend is now to focus on healthy food intake as a primary fitness goal. When healthy eating habits become a lifestyle, we are healthier and happier. ​Eating right allows us to reduce body fat, lose a few pounds, feel more confident and reduce our risk of illness.
+Licensed under the [MIT Lisence] {lisence).
