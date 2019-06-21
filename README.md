@@ -1,5 +1,8 @@
 # Gymaholic2
+
 Project started on sept 2018
+
+
 ![alt text](https://lh3.googleusercontent.com/GUs3MVNP3Qo7IVF3rSV91fsud0ez9DBigThJg8utR_XGxuAMTY7HtKx1vHrEVVVrDfJM=s180)
 
 🏋️ We have provided you with the tools you can use to create your personalized workout at your local gym. Whether you are aiming to lose unwanted weight, tone or add some new muscle size this program is for you. Utilizing the many different variations of fitness machines and free weights will come to your advantage. Best of luck and be sure to stay committed.
