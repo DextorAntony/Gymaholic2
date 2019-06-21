@@ -1,20 +1,5 @@
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- <!-- PROJECT SHIELDS -->
- [![Build Status][build-shield]]()
- [![Contributors][contributors-shield]]()
- [![MIT License][license-shield]][license-url]
-
-# Gymaholic2
+ # Gymaholic2
 
 Project started on sept 2018
 
